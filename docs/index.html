@@ -1,257 +1,134 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Pronóstico de siniestros viales — Cali</title>
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pronostico de siniestros viales - Cali</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
-  :root{
-    --asphalt-900:#12171c;
-    --asphalt-800:#1b222a;
-    --asphalt-700:#242d37;
-    --paper-50:#eceff2;
-    --concrete-400:#8b95a1;
-    --signal-amber:#e8a33d;
-    --signal-amber-dim:#4a3a1f;
-    --signal-red:#d6483f;
-    --signal-green:#4c9a6a;
-  }
-  *{ box-sizing:border-box; }
-  body{
-    margin:0;
-    background:var(--asphalt-900);
-    color:var(--paper-50);
-    font-family:'IBM Plex Sans', sans-serif;
-    min-height:100vh;
-  }
-  .wrap{ max-width:960px; margin:0 auto; padding:32px 24px 64px; }
-  .topbar{
-    display:flex; justify-content:space-between; align-items:flex-end;
-    border-bottom:2px solid var(--signal-amber);
-    padding-bottom:14px; margin-bottom:32px; flex-wrap:wrap; gap:10px;
-  }
-  .topbar .eyebrow{
-    font-family:'IBM Plex Mono', monospace; font-size:12px; letter-spacing:0.08em;
-    color:var(--signal-amber); text-transform:uppercase; margin:0 0 6px;
-  }
-  .topbar h1{
-    font-family:'Space Grotesk', sans-serif; font-weight:600; font-size:24px; margin:0;
-  }
-  .topbar .meta{
-    font-family:'IBM Plex Mono', monospace; font-size:12px; color:var(--concrete-400); text-align:right;
-  }
-  .hero{
-    display:grid; grid-template-columns:220px 1fr; gap:28px;
-    background:var(--asphalt-800); border:1px solid var(--asphalt-700);
-    border-radius:6px; padding:28px; margin-bottom:20px;
-    align-items:center;
-  }
-  .gauge-wrap{ display:flex; flex-direction:column; align-items:center; gap:6px; }
-  .gauge-label{ font-family:'IBM Plex Mono', monospace; font-size:11px; letter-spacing:0.06em; text-transform:uppercase; }
-  .hero-main .eyebrow{
-    font-family:'IBM Plex Mono', monospace; font-size:12px; color:var(--concrete-400);
-    text-transform:uppercase; letter-spacing:0.06em; margin:0 0 8px;
-  }
-  .hero-number{
-    font-family:'Space Grotesk', sans-serif; font-weight:600; font-size:76px; line-height:1;
-    margin:0; display:flex; align-items:baseline; gap:14px;
-  }
-  .hero-number span{ font-family:'IBM Plex Sans', sans-serif; font-weight:400; font-size:18px; color:var(--concrete-400); }
-  .hero-range{ font-size:15px; color:var(--paper-50); margin:14px 0 0; }
-  .hero-range b{ font-weight:500; color:var(--signal-amber); }
-  .metrics{
-    display:grid; grid-template-columns:repeat(auto-fit, minmax(170px, 1fr));
-    gap:14px; margin-bottom:28px;
-  }
-  .metric{
-    background:var(--asphalt-800); border:1px solid var(--asphalt-700); border-radius:6px;
-    padding:16px 18px; border-left:3px solid var(--signal-amber);
-  }
-  .metric .label{ font-family:'IBM Plex Mono', monospace; font-size:11px; color:var(--concrete-400); text-transform:uppercase; letter-spacing:0.05em; margin:0 0 6px; }
-  .metric .value{ font-family:'Space Grotesk', sans-serif; font-size:26px; font-weight:600; margin:0; }
-  .metric .value small{ font-family:'IBM Plex Sans', sans-serif; font-size:13px; font-weight:400; color:var(--concrete-400); }
-  .panel{
-    background:var(--asphalt-800); border:1px solid var(--asphalt-700); border-radius:6px;
-    padding:22px 24px; margin-bottom:20px;
-  }
-  .panel h2{ font-family:'Space Grotesk', sans-serif; font-size:15px; font-weight:500; margin:0 0 16px; }
-  .chart-holder{ position:relative; width:100%; height:230px; }
-  footer{ font-family:'IBM Plex Mono', monospace; font-size:11px; color:var(--concrete-400); line-height:1.7; }
-  .estado{
-    display:inline-flex; align-items:center; gap:6px; font-family:'IBM Plex Mono', monospace;
-    font-size:11px; padding:3px 10px; border-radius:99px; border:1px solid var(--asphalt-700);
-  }
-  .estado .dot{ width:7px; height:7px; border-radius:50%; background:var(--signal-green); }
-  @media (max-width:600px){
-    .hero{ grid-template-columns:1fr; text-align:center; }
-    .gauge-wrap{ margin:0 auto; }
-    .hero-number{ justify-content:center; }
-  }
+  :root{--asphalt-900:#12171c;--asphalt-800:#1b222a;--asphalt-700:#242d37;--paper-50:#eceff2;--concrete-400:#8b95a1;--signal-amber:#e8a33d;--signal-red:#d6483f;--signal-green:#4c9a6a}
+  *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:var(--asphalt-900);color:var(--paper-50);font-family:'IBM Plex Sans',sans-serif;min-width:320px}
+  .wrap{max-width:1120px;margin:0 auto;padding:28px 24px 64px}.topbar{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;border-bottom:2px solid var(--signal-amber);padding-bottom:14px}.eyebrow,.label,.meta,.nav a,.note{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.06em;text-transform:uppercase}.eyebrow{color:var(--signal-amber);margin:0 0 6px}.topbar h1{font-family:'Space Grotesk',sans-serif;font-size:25px;margin:0}.meta{color:var(--concrete-400);text-align:right;text-transform:none}.nav{display:flex;flex-wrap:wrap;gap:7px;margin:18px 0 26px}.nav a{color:var(--concrete-400);text-decoration:none;border:1px solid var(--asphalt-700);border-radius:99px;padding:6px 10px}.nav a:hover{color:var(--paper-50);border-color:var(--signal-amber)}
+  section{scroll-margin-top:18px;margin-bottom:34px}.section-title{font-family:'Space Grotesk',sans-serif;font-size:21px;margin:0 0 14px}.section-lead{color:var(--concrete-400);margin:-7px 0 16px;line-height:1.5}.hero{display:grid;grid-template-columns:220px 1fr;gap:28px;background:var(--asphalt-800);border:1px solid var(--asphalt-700);border-radius:7px;padding:28px;align-items:center}.gauge-wrap{display:flex;flex-direction:column;align-items:center;gap:7px}.gauge-label{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.06em;text-transform:uppercase}.hero-main .eyebrow{color:var(--concrete-400)}.hero-number{font-family:'Space Grotesk',sans-serif;font-size:72px;font-weight:600;line-height:1;margin:0;display:flex;align-items:baseline;gap:12px}.hero-number span{font-family:'IBM Plex Sans',sans-serif;font-size:18px;font-weight:400;color:var(--concrete-400)}.hero-copy{margin:14px 0 0;line-height:1.55}.hero-copy b{color:var(--signal-amber)}
+  .metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(175px,1fr));gap:14px;margin-top:16px}.metric,.panel{background:var(--asphalt-800);border:1px solid var(--asphalt-700);border-radius:7px}.metric{padding:16px 18px;border-left:3px solid var(--signal-amber)}.metric .label{color:var(--concrete-400);margin:0 0 7px}.metric .value{font-family:'Space Grotesk',sans-serif;font-size:25px;font-weight:600;margin:0}.metric small{font-family:'IBM Plex Sans',sans-serif;font-size:12px;font-weight:400;color:var(--concrete-400)}.metric.recent{border-left-color:var(--signal-green)}.panel{padding:20px 22px;margin-bottom:16px}.panel h3{font-family:'Space Grotesk',sans-serif;font-size:16px;margin:0 0 6px}.panel p{line-height:1.5}.chart-holder{position:relative;height:270px}.chart-holder.short{height:220px}.grid-2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.controls{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:14px 0}.controls label{color:var(--concrete-400);font-size:13px}.controls button,.controls select{font:500 12px 'IBM Plex Mono',monospace;color:var(--paper-50);background:var(--asphalt-900);border:1px solid var(--asphalt-700);border-radius:4px;padding:8px 10px}.controls button{cursor:pointer}.controls button.active,.controls button:hover{border-color:var(--signal-amber);color:var(--signal-amber)}
+  .table-wrap{overflow-x:auto;max-height:420px;border:1px solid var(--asphalt-700);border-radius:5px}table{width:100%;border-collapse:collapse;font-size:13px;min-width:520px}th,td{padding:10px 12px;text-align:right;border-bottom:1px solid var(--asphalt-700)}th{position:sticky;top:0;background:var(--asphalt-800);font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--concrete-400);text-transform:uppercase}th:first-child,td:first-child{text-align:left}tbody tr:last-child td{border-bottom:0}.error-grid{display:grid;grid-template-columns:repeat(5,minmax(100px,1fr));gap:10px}.error-item{background:var(--asphalt-900);border:1px solid var(--asphalt-700);padding:12px;border-radius:5px}.error-item b{display:block;font-family:'Space Grotesk',sans-serif;font-size:21px;color:var(--signal-amber)}.error-item span{font-size:12px;color:var(--concrete-400)}.status{display:inline-flex;align-items:center;gap:6px;font-family:'IBM Plex Mono',monospace;font-size:11px;padding:4px 10px;border:1px solid var(--asphalt-700);border-radius:99px}.dot{width:7px;height:7px;border-radius:50%;background:var(--signal-green)}.fine-print{font-size:13px;color:var(--concrete-400);line-height:1.55}.forecast-details{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.forecast-details div{padding:12px;background:var(--asphalt-900);border-radius:5px}.forecast-details span{display:block;color:var(--concrete-400);font-size:12px;margin-bottom:4px}.forecast-details b{font-family:'Space Grotesk',sans-serif;font-size:17px}
+  footer{border-top:1px solid var(--asphalt-700);padding-top:18px;font-size:12px;color:var(--concrete-400);line-height:1.6}@media(max-width:700px){.wrap{padding:22px 16px 48px}.topbar{align-items:flex-start;flex-direction:column}.meta{text-align:left}.hero{grid-template-columns:1fr;text-align:center}.hero-number{justify-content:center;font-size:58px}.grid-2{grid-template-columns:1fr}.forecast-details{grid-template-columns:1fr}.error-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.chart-holder{height:230px}.panel{padding:17px}.topbar h1{font-size:22px}}
 </style>
 </head>
 <body>
-<div class="wrap">
+<main class="wrap">
+  <header class="topbar">
+    <div><p class="eyebrow">Movilidad y seguridad vial · Cali</p><h1>Pronostico diario de siniestros viales</h1></div>
+    <div class="meta" id="metaActualizacion">Cargando datos...</div>
+  </header>
+  <nav class="nav" aria-label="Secciones"><a href="#resumen">Resumen</a><a href="#historico">Analisis historico</a><a href="#evaluacion">Evaluacion del modelo</a><a href="#pronostico">Pronostico</a></nav>
 
-  <div class="topbar">
-    <div>
-      <p class="eyebrow">Movilidad y seguridad vial · Cali</p>
-      <h1>Pronóstico diario de siniestros viales</h1>
+  <section id="resumen">
+    <h2 class="section-title">Resumen</h2>
+    <div class="hero">
+      <div class="gauge-wrap"><svg id="gauge" viewBox="0 0 200 120" width="180" height="108" role="img" aria-labelledby="gaugeDesc"><desc id="gaugeDesc">Indicador del pronostico frente a los percentiles de los ultimos 30 dias.</desc></svg><span class="gauge-label" id="gaugeEstado">normal</span></div>
+      <div class="hero-main"><p class="eyebrow" id="fechaPronostico">Pronostico para -</p><p class="hero-number" id="prediccionNumero">- <span>siniestros estimados</span></p><p class="hero-copy" id="rangoTexto">Calculando rango operativo...</p></div>
     </div>
-    <div class="meta" id="metaActualizacion">cargando…</div>
-  </div>
+    <div class="metrics">
+      <div class="metric"><p class="label">MAE oficial 2024</p><p class="value" id="resumenMae">-</p></div>
+      <div class="metric"><p class="label">RMSE oficial 2024</p><p class="value" id="resumenRmse">-</p></div>
+      <div class="metric"><p class="label">Reduccion MAE vs baseline</p><p class="value" id="resumenMejora">-</p></div>
+      <div class="metric"><p class="label">Promedio ultimos 30 dias</p><p class="value" id="resumenPromedio">-</p></div>
+    </div>
+  </section>
 
-  <div class="hero">
-    <div class="gauge-wrap">
-      <svg id="gauge" viewBox="0 0 200 120" width="180" height="108" role="img" aria-labelledby="gaugeDesc">
-        <desc id="gaugeDesc">Velocímetro que ubica el pronóstico de mañana entre bajo, normal y alto respecto a los últimos 30 días</desc>
-      </svg>
-      <span class="gauge-label" id="gaugeEstado" style="color:var(--signal-amber);">normal</span>
+  <section id="historico">
+    <h2 class="section-title">Analisis historico</h2>
+    <p class="section-lead">Serie diaria disponible desde 2016 hasta la ultima fecha registrada.</p>
+    <div class="panel"><h3>Evolucion diaria</h3><div class="controls"><label for="filtroAnio">Ver periodo:</label><select id="filtroAnio"></select></div><div class="chart-holder"><canvas id="historialChart">Grafica de evolucion historica.</canvas></div></div>
+    <div class="grid-2">
+      <div class="panel"><h3>Comparacion por ano</h3><div class="chart-holder short"><canvas id="aniosChart">Grafica de totales por ano.</canvas></div></div>
+      <div class="panel"><h3>Promedio por dia de la semana</h3><div class="chart-holder short"><canvas id="semanaChart">Grafica de promedios por dia.</canvas></div></div>
     </div>
-    <div class="hero-main">
-      <p class="eyebrow" id="fechaPronostico">Pronóstico para —</p>
-      <p class="hero-number" id="prediccionNumero">— <span>siniestros esperados</span></p>
-      <p class="hero-range" id="rangoTexto">Calculando rango…</p>
-    </div>
-  </div>
+    <div class="panel"><h3>Datos recientes</h3><p class="fine-print" id="tendenciaTexto"></p><div class="chart-holder short"><canvas id="recienteChart">Grafica de los ultimos 30 dias.</canvas></div></div>
+  </section>
 
-  <div class="metrics">
-    <div class="metric">
-      <p class="label">Error típico del modelo</p>
-      <p class="value" id="metricMAE">— <small>siniestros/día</small></p>
+  <section id="evaluacion">
+    <h2 class="section-title">Evaluacion del modelo</h2>
+    <p class="section-lead" id="textoPeriodoOficial">Test oficial con predicciones walk-forward de un dia hacia adelante.</p>
+    <div class="metrics">
+      <div class="metric"><p class="label">MAE ARIMA</p><p class="value" id="oficialMae">-</p></div>
+      <div class="metric"><p class="label">RMSE ARIMA</p><p class="value" id="oficialRmse">-</p></div>
+      <div class="metric"><p class="label">MAE baseline semanal</p><p class="value" id="baselineMae">-</p></div>
+      <div class="metric"><p class="label">RMSE baseline semanal</p><p class="value" id="baselineRmse">-</p></div>
     </div>
-    <div class="metric">
-      <p class="label">Mejora vs. "igual que hace 7 días"</p>
-      <p class="value" id="metricMejora">—</p>
+    <div class="panel"><h3>Porcentaje de dias por limite de error absoluto</h3><p class="fine-print">Describe la proporcion de pronosticos cuyo error absoluto no supera cada limite. No es una medida de accuracy.</p><div class="error-grid" id="errorGrid"></div></div>
+    <div class="panel">
+      <h3>Real vs. prediccion ARIMA</h3>
+      <div class="controls" aria-label="Periodo de evaluacion"><button type="button" data-periodo="10">Ultimos 10 dias</button><button type="button" data-periodo="30" class="active">Ultimos 30 dias</button><button type="button" data-periodo="all">Todo el test</button></div>
+      <div class="chart-holder"><canvas id="evaluacionChart">Grafica de valores reales y predicciones del test oficial.</canvas></div>
     </div>
-    <div class="metric">
-      <p class="label">Promedio últimos 30 días</p>
-      <p class="value" id="metricPromedio">— <small>siniestros/día</small></p>
-    </div>
-  </div>
+    <div class="panel"><h3>Detalle walk-forward</h3><p class="fine-print">Cada fila representa una prediccion de un solo dia hecha antes de incorporar el valor real de esa fecha.</p><div class="table-wrap"><table><thead><tr><th>Fecha</th><th>Real</th><th>Prediccion</th><th>Error absoluto</th></tr></thead><tbody id="tablaEvaluacion"></tbody></table></div></div>
+    <div class="panel"><h3>Desempeno reciente (90 dias)</h3><p class="fine-print" id="recienteModelo">Calculando...</p></div>
+  </section>
 
-  <div class="panel">
-    <h2>Tendencia — últimos 30 días</h2>
-    <div class="chart-holder">
-      <canvas id="trendChart" role="img" aria-label="Serie diaria de siniestros viales en Cali en los últimos 30 días, con el pronóstico del día siguiente marcado al final">Consulte el resumen numérico arriba: la tendencia muestra los siniestros diarios recientes.</canvas>
-    </div>
-  </div>
+  <section id="pronostico">
+    <h2 class="section-title">Pronostico</h2>
+    <div class="panel"><h3>Estimacion para el siguiente dia</h3><div class="forecast-details" id="forecastDetails"></div><p class="fine-print">El rango operativo estimado se construye con el percentil 80 del error absoluto de la evaluacion reciente. Es una referencia operativa, no una probabilidad ni un intervalo de confianza.</p><p class="fine-print" id="clasificacionTexto"></p></div>
+  </section>
 
-  <footer>
-    <span class="estado"><span class="dot"></span>ARIMA(4,1,1) · actualización automática diaria</span>
-    <p style="margin-top:12px;">
-      El rango cubre aproximadamente el 80% de los casos según el error histórico del modelo.
-      Es una estimación estadística basada en el comportamiento reciente de los siniestros y
-      no reemplaza el criterio de las autoridades de tránsito.
-    </p>
-  </footer>
-</div>
-
+  <footer><span class="status"><span class="dot"></span><span id="modeloTexto">ARIMA(4,1,1) · actualizacion automatica diaria</span></span><p>El horizonte validado es de un dia hacia adelante. Los resultados oficiales y el desempeno reciente se presentan por separado.</p></footer>
+</main>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
 <script>
-async function iniciar(){
-  let datos;
-  try{
-    const res = await fetch('prediccion.json', { cache: 'no-store' });
-    datos = await res.json();
-  }catch(e){
-    document.getElementById('metaActualizacion').textContent = 'No se pudo cargar prediccion.json';
-    return;
-  }
-
-  const fecha = new Date(datos.fecha_pronostico + 'T00:00:00');
-  const fechaTexto = fecha.toLocaleDateString('es-CO', { weekday:'long', day:'numeric', month:'long', year:'numeric' });
-  document.getElementById('fechaPronostico').textContent = 'Pronóstico para ' + fechaTexto;
-  document.getElementById('prediccionNumero').innerHTML = datos.prediccion + ' <span>siniestros esperados</span>';
-  document.getElementById('rangoTexto').innerHTML =
-    'Rango probable: <b>' + datos.rango_min + ' a ' + datos.rango_max + ' siniestros</b> (80% de los casos)';
-
-  document.getElementById('metricMAE').innerHTML = '± ' + (datos.mae_modelo ?? '—') + ' <small>siniestros/día</small>';
-  document.getElementById('metricMejora').textContent = (datos.mejora_vs_baseline_pct != null ? datos.mejora_vs_baseline_pct + '%' : 'sin datos suficientes');
-  document.getElementById('metricPromedio').innerHTML = datos.promedio_30d + ' <small>siniestros/día</small>';
-
-  const actualizado = new Date(datos.actualizado);
-  document.getElementById('metaActualizacion').textContent =
-    'Actualizado ' + actualizado.toLocaleString('es-CO', { dateStyle:'medium', timeStyle:'short' });
-
-  dibujarGauge(datos);
-  dibujarTendencia(datos);
+let datos, graficaHistorial, graficaAnios, graficaSemana, graficaReciente, graficaEvaluacion, periodoActivo = 30;
+const colores = {amber:'#e8a33d', red:'#d6483f', green:'#4c9a6a', gray:'#8b95a1', grid:'#242d37'};
+const formato = (valor, decimales=2) => Number(valor).toLocaleString('es-CO',{minimumFractionDigits:decimales,maximumFractionDigits:decimales});
+const fechaTexto = fecha => new Date(fecha + 'T00:00:00').toLocaleDateString('es-CO',{day:'numeric',month:'long',year:'numeric'});
+const fechaCorta = fecha => new Date(fecha + 'T00:00:00').toLocaleDateString('es-CO',{day:'2-digit',month:'short'});
+function opcionesEscala(){return {responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:'#eceff2',font:{family:'IBM Plex Sans'}}}},scales:{x:{grid:{display:false},ticks:{color:colores.gray,maxTicksLimit:10,font:{size:10}}},y:{beginAtZero:true,grid:{color:colores.grid},ticks:{color:colores.gray,font:{size:11}}}}}}
+function datosPeriodo(){const filas=datos.evaluacion_oficial_2024.predicciones;return periodoActivo==='all'?filas:filas.slice(-Number(periodoActivo))}
+function actualizarEvaluacion(){
+  const filas=datosPeriodo(); const opciones=opcionesEscala();
+  if(graficaEvaluacion) graficaEvaluacion.destroy();
+  graficaEvaluacion=new Chart(document.getElementById('evaluacionChart'),{type:'line',data:{labels:filas.map(f=>fechaCorta(f.fecha)),datasets:[{label:'Real',data:filas.map(f=>f.real),borderColor:colores.amber,backgroundColor:colores.amber,borderWidth:2,pointRadius:periodoActivo==='all'?0:2,tension:.2},{label:'Prediccion ARIMA',data:filas.map(f=>f.prediccion),borderColor:colores.red,backgroundColor:colores.red,borderWidth:2,pointRadius:periodoActivo==='all'?0:2,tension:.2}]},options:opciones});
+  document.getElementById('tablaEvaluacion').innerHTML=filas.map(f=>'<tr><td>'+fechaTexto(f.fecha)+'</td><td>'+f.real+'</td><td>'+formato(f.prediccion)+'</td><td>'+formato(f.error_absoluto)+'</td></tr>').join('');
 }
-
-function dibujarGauge(datos){
-  const valores = datos.historico.map(d => d.total);
-  const p25 = percentil(valores, 25);
-  const p75 = percentil(valores, 75);
-  const min = Math.min(...valores, datos.rango_min) - 1;
-  const max = Math.max(...valores, datos.rango_max) + 1;
-
-  let estado = 'normal', color = '#e8a33d';
-  if (datos.prediccion < p25) { estado = 'bajo'; color = '#4c9a6a'; }
-  else if (datos.prediccion > p75) { estado = 'alto'; color = '#d6483f'; }
-
-  const estadoEl = document.getElementById('gaugeEstado');
-  estadoEl.textContent = estado;
-  estadoEl.style.color = color;
-
-  const cx = 100, cy = 100, r = 78;
-  const frac = Math.min(1, Math.max(0, (datos.prediccion - min) / (max - min)));
-  const anguloDeg = -180 + frac * 180;
-  const anguloRad = anguloDeg * Math.PI / 180;
-  const nx = cx + r * 0.72 * Math.cos(anguloRad);
-  const ny = cy + r * 0.72 * Math.sin(anguloRad);
-
-  const svg = document.getElementById('gauge');
-  svg.innerHTML += `
-    <path d="M 22 100 A 78 78 0 0 1 76 27" fill="none" stroke="#4c9a6a" stroke-width="14" stroke-linecap="round"/>
-    <path d="M 76 27 A 78 78 0 0 1 124 27" fill="none" stroke="#e8a33d" stroke-width="14" stroke-linecap="round"/>
-    <path d="M 124 27 A 78 78 0 0 1 178 100" fill="none" stroke="#d6483f" stroke-width="14" stroke-linecap="round"/>
-    <line x1="${cx}" y1="${cy}" x2="${nx.toFixed(1)}" y2="${ny.toFixed(1)}" stroke="#eceff2" stroke-width="3" stroke-linecap="round"/>
-    <circle cx="${cx}" cy="${cy}" r="6" fill="#eceff2"/>
-  `;
+function dibujarGauge(){
+  const clasificacion=datos.historico.clasificacion_pronostico, valor=datos.pronostico.prediccion_central;
+  const estado=clasificacion.estado, color=estado==='bajo'?colores.green:estado==='alto'?colores.red:colores.amber;
+  document.getElementById('gaugeEstado').textContent=estado;document.getElementById('gaugeEstado').style.color=color;
+  const min=Math.min(...datos.historico.ultimos_30_dias.map(d=>d.total),datos.pronostico.rango_operativo.min)-1;
+  const max=Math.max(...datos.historico.ultimos_30_dias.map(d=>d.total),datos.pronostico.rango_operativo.max)+1;
+  const fraccion=Math.min(1,Math.max(0,(valor-min)/(max-min))), angulo=(-180+fraccion*180)*Math.PI/180, x=100+56*Math.cos(angulo), y=100+56*Math.sin(angulo);
+  document.getElementById('gauge').innerHTML='<desc id="gaugeDesc">Indicador del pronostico frente a los percentiles de los ultimos 30 dias.</desc><path d="M 22 100 A 78 78 0 0 1 76 27" fill="none" stroke="#4c9a6a" stroke-width="14" stroke-linecap="round"/><path d="M 76 27 A 78 78 0 0 1 124 27" fill="none" stroke="#e8a33d" stroke-width="14" stroke-linecap="round"/><path d="M 124 27 A 78 78 0 0 1 178 100" fill="none" stroke="#d6483f" stroke-width="14" stroke-linecap="round"/><line x1="100" y1="100" x2="'+x.toFixed(1)+'" y2="'+y.toFixed(1)+'" stroke="#eceff2" stroke-width="3" stroke-linecap="round"/><circle cx="100" cy="100" r="6" fill="#eceff2"/>';
 }
-
-function percentil(arr, p){
-  const s = [...arr].sort((a,b) => a-b);
-  const idx = (p/100) * (s.length - 1);
-  const lo = Math.floor(idx), hi = Math.ceil(idx);
-  if (lo === hi) return s[lo];
-  return s[lo] + (s[hi]-s[lo]) * (idx-lo);
+function dibujarHistorico(){
+  const serie=datos.historico.serie_diaria, anios=[...new Set(serie.map(d=>d.fecha.slice(0,4)))], selector=document.getElementById('filtroAnio');
+  selector.innerHTML='<option value="all">Todo el periodo</option>'+anios.map(anio=>'<option value="'+anio+'">'+anio+'</option>').join('');
+  const actualizar=()=>{const filtrada=selector.value==='all'?serie:serie.filter(d=>d.fecha.startsWith(selector.value));if(graficaHistorial)graficaHistorial.destroy();graficaHistorial=new Chart(document.getElementById('historialChart'),{type:'line',data:{labels:filtrada.map(d=>fechaCorta(d.fecha)),datasets:[{label:'Siniestros diarios',data:filtrada.map(d=>d.total),borderColor:colores.amber,borderWidth:1.5,pointRadius:0,tension:.15}]},options:opcionesEscala()})};selector.addEventListener('change',actualizar);actualizar();
+  const opciones=opcionesEscala();graficaAnios=new Chart(document.getElementById('aniosChart'),{type:'bar',data:{labels:datos.historico.por_anio.map(d=>d.anio),datasets:[{label:'Total de siniestros',data:datos.historico.por_anio.map(d=>d.total),backgroundColor:colores.amber}]},options:opciones});
+  graficaSemana=new Chart(document.getElementById('semanaChart'),{type:'bar',data:{labels:datos.historico.por_dia_semana.map(d=>d.dia),datasets:[{label:'Promedio diario',data:datos.historico.por_dia_semana.map(d=>d.promedio),backgroundColor:colores.green}]},options:opciones});
+  const recientes=datos.historico.ultimos_30_dias;graficaReciente=new Chart(document.getElementById('recienteChart'),{type:'line',data:{labels:recientes.map(d=>fechaCorta(d.fecha)),datasets:[{label:'Real',data:recientes.map(d=>d.total),borderColor:colores.amber,borderWidth:2,pointRadius:2,tension:.2}]},options:opcionesEscala()});
 }
-
-function dibujarTendencia(datos){
-  const labels = datos.historico.map(d => {
-    const f = new Date(d.fecha + 'T00:00:00');
-    return f.toLocaleDateString('es-CO', { day:'2-digit', month:'short' });
-  });
-  const valores = datos.historico.map(d => d.total);
-
-  labels.push(new Date(datos.fecha_pronostico + 'T00:00:00').toLocaleDateString('es-CO', { day:'2-digit', month:'short' }));
-  const real = [...valores, null];
-  const pronostico = new Array(valores.length).fill(null);
-  pronostico.push(datos.prediccion);
-
-  new Chart(document.getElementById('trendChart'), {
-    type: 'line',
-    data: {
-      labels,
-      datasets: [
-        { label:'Real', data: real, borderColor:'#e8a33d', backgroundColor:'#e8a33d', pointRadius:2, borderWidth:2, tension:0.25 },
-        { label:'Pronóstico', data: pronostico, borderColor:'#d6483f', backgroundColor:'#d6483f', pointRadius:6, pointStyle:'triangle', borderWidth:0, showLine:false }
-      ]
-    },
-    options: {
-      responsive:true, maintainAspectRatio:false,
-      plugins:{ legend:{ display:false } },
-      scales:{
-        x:{ grid:{ display:false }, ticks:{ color:'#8b95a1', font:{ size:10 }, maxTicksLimit:8 } },
-        y:{ beginAtZero:true, grid:{ color:'#242d37' }, ticks:{ color:'#8b95a1', font:{ size:11 } } }
-      }
-    }
-  });
+function poblarResumen(){
+  const oficial=datos.evaluacion_oficial_2024, pronostico=datos.pronostico, rango=pronostico.rango_operativo, historico=datos.historico;
+  document.getElementById('fechaPronostico').textContent='Pronostico para '+fechaTexto(pronostico.fecha);
+  document.getElementById('prediccionNumero').innerHTML=formato(pronostico.prediccion_central)+' <span>aprox. '+pronostico.prediccion_redondeada+' siniestros</span>';
+  document.getElementById('rangoTexto').innerHTML='Rango operativo estimado: <b>'+rango.min+' a '+rango.max+' siniestros</b>';
+  document.getElementById('resumenMae').textContent=formato(oficial.arima.mae);document.getElementById('resumenRmse').textContent=formato(oficial.arima.rmse);document.getElementById('resumenMejora').textContent=formato(oficial.reduccion_mae_pct)+'%';document.getElementById('resumenPromedio').textContent=formato(historico.promedio_30_dias,1);
+  document.getElementById('metaActualizacion').textContent='Datos hasta '+fechaTexto(datos.datos_disponibles_hasta)+' · actualizado '+new Date(datos.actualizado).toLocaleString('es-CO',{dateStyle:'medium',timeStyle:'short'});
+  const tendencia=historico.tendencia_30_dias;document.getElementById('tendenciaTexto').textContent='Promedio de los primeros 15 dias: '+formato(tendencia.promedio_primeros_15_dias,1)+'. Promedio de los ultimos 15 dias: '+formato(tendencia.promedio_ultimos_15_dias,1)+'. Variacion: '+formato(tendencia.variacion_promedio,1)+' siniestros por dia.';
+  document.getElementById('clasificacionTexto').textContent='Indicador '+historico.clasificacion_pronostico.estado+': se basa en los percentiles 25 ('+formato(historico.clasificacion_pronostico.percentil_25,1)+') y 75 ('+formato(historico.clasificacion_pronostico.percentil_75,1)+') de los ultimos 30 dias.';
+  document.getElementById('forecastDetails').innerHTML='<div><span>Datos disponibles hasta</span><b>'+fechaTexto(datos.datos_disponibles_hasta)+'</b></div><div><span>Fecha pronosticada</span><b>'+fechaTexto(pronostico.fecha)+'</b></div><div><span>Desempeno reciente</span><b>MAE '+formato(datos.evaluacion_reciente_90_dias.arima.mae)+'</b></div>';
 }
-
+function poblarEvaluacion(){
+  const oficial=datos.evaluacion_oficial_2024, reciente=datos.evaluacion_reciente_90_dias;
+  document.getElementById('textoPeriodoOficial').textContent='Test oficial: '+fechaTexto(oficial.periodo_inicio)+' a '+fechaTexto(oficial.periodo_fin)+' · '+oficial.dias+' dias. Cada prediccion es walk-forward de un dia.';
+  document.getElementById('oficialMae').textContent=formato(oficial.arima.mae);document.getElementById('oficialRmse').textContent=formato(oficial.arima.rmse);document.getElementById('baselineMae').textContent=formato(oficial.baseline_semana_anterior.mae);document.getElementById('baselineRmse').textContent=formato(oficial.baseline_semana_anterior.rmse);
+  document.getElementById('errorGrid').innerHTML=oficial.porcentaje_error_absoluto_hasta.map(d=>'<div class="error-item"><b>'+formato(d.porcentaje,1)+'%</b><span>Error absoluto &le; '+d.limite+'</span></div>').join('');
+  document.getElementById('recienteModelo').textContent='Periodo independiente: '+fechaTexto(reciente.periodo_inicio)+' a '+fechaTexto(reciente.periodo_fin)+' ('+reciente.dias+' dias). MAE ARIMA: '+formato(reciente.arima.mae)+', RMSE ARIMA: '+formato(reciente.arima.rmse)+', MAE baseline semanal: '+formato(reciente.baseline_semana_anterior.mae)+'.';
+  document.querySelectorAll('[data-periodo]').forEach(boton=>boton.addEventListener('click',()=>{periodoActivo=boton.dataset.periodo;document.querySelectorAll('[data-periodo]').forEach(b=>b.classList.toggle('active',b===boton));actualizarEvaluacion()}));
+  actualizarEvaluacion();
+}
+async function iniciar(){try{const respuesta=await fetch('prediccion.json',{cache:'no-store'});if(!respuesta.ok)throw new Error('HTTP '+respuesta.status);datos=await respuesta.json();poblarResumen();dibujarGauge();dibujarHistorico();poblarEvaluacion()}catch(error){document.getElementById('metaActualizacion').textContent='No se pudo cargar prediccion.json';console.error(error)}}
 iniciar();
 </script>
 </body>
