@@ -8,30 +8,30 @@
     ],
     "horizonte_dias": 1
   },
-  "actualizado": "2026-08-29T15:51:32+00:00",
-  "datos_disponibles_hasta": "2024-11-03",
+  "actualizado": "2026-08-29T16:19:03+00:00",
+  "datos_disponibles_hasta": "2024-11-02",
   "pronostico": {
-    "fecha": "2024-11-04",
-    "prediccion_central": 13.131790541204149,
+    "fecha": "2024-11-03",
+    "prediccion_central": 13.10836379521837,
     "prediccion_redondeada": 13,
     "rango_operativo": {
       "min": 8,
       "max": 18,
       "percentil_error_absoluto": 80,
-      "error_absoluto_percentil": 4.854197717947112
+      "error_absoluto_percentil": 4.95074052909004
     }
   },
   "evaluacion_oficial_2024": {
     "dias": 307,
     "arima": {
-      "mae": 3.0201121793056718,
-      "rmse": 3.7457099181947364
+      "mae": 3.0201121790607206,
+      "rmse": 3.745709917923338
     },
     "baseline_semana_anterior": {
       "mae": 4.153094462540716,
       "rmse": 5.187368773113554
     },
-    "reduccion_mae_pct": 27.280436153188916,
+    "reduccion_mae_pct": 27.280436159086957,
     "porcentaje_error_absoluto_hasta": [
       {
         "limite": 1,
@@ -54,1868 +54,1868 @@
         "porcentaje": 82.08469055374593
       }
     ],
-    "error_absoluto_p80": 4.815385249621047,
+    "error_absoluto_p80": 4.81538524810104,
     "periodo_inicio": "2024-01-01",
     "periodo_fin": "2024-11-02",
     "predicciones": [
       {
         "fecha": "2024-01-01",
         "real": 12,
-        "prediccion": 11.840112481438684,
-        "error_absoluto": 0.159887518561316
+        "prediccion": 11.840112482677995,
+        "error_absoluto": 0.15988751732200512
       },
       {
         "fecha": "2024-01-02",
         "real": 12,
-        "prediccion": 11.62012283452759,
-        "error_absoluto": 0.3798771654724096
+        "prediccion": 11.620122835658428,
+        "error_absoluto": 0.3798771643415719
       },
       {
         "fecha": "2024-01-03",
         "real": 9,
-        "prediccion": 11.713531998347698,
-        "error_absoluto": 2.7135319983476975
+        "prediccion": 11.713531999157734,
+        "error_absoluto": 2.713531999157734
       },
       {
         "fecha": "2024-01-04",
         "real": 5,
-        "prediccion": 10.91447025761142,
-        "error_absoluto": 5.91447025761142
+        "prediccion": 10.914470259195959,
+        "error_absoluto": 5.914470259195959
       },
       {
         "fecha": "2024-01-05",
         "real": 14,
-        "prediccion": 9.895637554551936,
-        "error_absoluto": 4.104362445448064
+        "prediccion": 9.89563755534995,
+        "error_absoluto": 4.10436244465005
       },
       {
         "fecha": "2024-01-06",
         "real": 9,
-        "prediccion": 11.795232646856054,
-        "error_absoluto": 2.7952326468560535
+        "prediccion": 11.795232647164038,
+        "error_absoluto": 2.7952326471640383
       },
       {
         "fecha": "2024-01-07",
         "real": 11,
-        "prediccion": 10.093863776063419,
-        "error_absoluto": 0.9061362239365813
+        "prediccion": 10.093863776558733,
+        "error_absoluto": 0.9061362234412673
       },
       {
         "fecha": "2024-01-08",
         "real": 6,
-        "prediccion": 10.947901918257593,
-        "error_absoluto": 4.9479019182575925
+        "prediccion": 10.947901919647594,
+        "error_absoluto": 4.9479019196475935
       },
       {
         "fecha": "2024-01-09",
         "real": 16,
-        "prediccion": 9.300542926991916,
-        "error_absoluto": 6.699457073008084
+        "prediccion": 9.300542929088257,
+        "error_absoluto": 6.699457070911743
       },
       {
         "fecha": "2024-01-10",
         "real": 12,
-        "prediccion": 11.899439817407519,
-        "error_absoluto": 0.10056018259248134
+        "prediccion": 11.899439818453757,
+        "error_absoluto": 0.10056018154624269
       },
       {
         "fecha": "2024-01-11",
         "real": 15,
-        "prediccion": 10.517688556899685,
-        "error_absoluto": 4.482311443100315
+        "prediccion": 10.517688558703068,
+        "error_absoluto": 4.4823114412969325
       },
       {
         "fecha": "2024-01-12",
         "real": 11,
-        "prediccion": 11.952437413826889,
-        "error_absoluto": 0.952437413826889
+        "prediccion": 11.952437415898851,
+        "error_absoluto": 0.9524374158988511
       },
       {
         "fecha": "2024-01-13",
         "real": 4,
-        "prediccion": 10.896176656730066,
-        "error_absoluto": 6.896176656730066
+        "prediccion": 10.896176659360485,
+        "error_absoluto": 6.896176659360485
       },
       {
         "fecha": "2024-01-14",
         "real": 13,
-        "prediccion": 9.675694879635746,
-        "error_absoluto": 3.3243051203642544
+        "prediccion": 9.675694879700464,
+        "error_absoluto": 3.3243051202995364
       },
       {
         "fecha": "2024-01-15",
         "real": 16,
-        "prediccion": 11.691187735097204,
-        "error_absoluto": 4.308812264902796
+        "prediccion": 11.691187734213049,
+        "error_absoluto": 4.308812265786951
       },
       {
         "fecha": "2024-01-16",
         "real": 13,
-        "prediccion": 11.899491728834654,
-        "error_absoluto": 1.1005082711653458
+        "prediccion": 11.899491727746168,
+        "error_absoluto": 1.1005082722538315
       },
       {
         "fecha": "2024-01-17",
         "real": 14,
-        "prediccion": 11.597730056446974,
-        "error_absoluto": 2.4022699435530264
+        "prediccion": 11.597730056724687,
+        "error_absoluto": 2.4022699432753125
       },
       {
         "fecha": "2024-01-18",
         "real": 13,
-        "prediccion": 12.095163596706644,
-        "error_absoluto": 0.9048364032933556
+        "prediccion": 12.095163598809451,
+        "error_absoluto": 0.9048364011905488
       },
       {
         "fecha": "2024-01-19",
         "real": 14,
-        "prediccion": 12.001767375949402,
-        "error_absoluto": 1.9982326240505977
+        "prediccion": 12.001767376896634,
+        "error_absoluto": 1.998232623103366
       },
       {
         "fecha": "2024-01-20",
         "real": 13,
-        "prediccion": 12.594827356559998,
-        "error_absoluto": 0.40517264344000203
+        "prediccion": 12.594827356163982,
+        "error_absoluto": 0.4051726438360177
       },
       {
         "fecha": "2024-01-21",
         "real": 13,
-        "prediccion": 12.453102480954525,
-        "error_absoluto": 0.5468975190454746
+        "prediccion": 12.45310248028416,
+        "error_absoluto": 0.5468975197158397
       },
       {
         "fecha": "2024-01-22",
         "real": 2,
-        "prediccion": 12.665395092151693,
-        "error_absoluto": 10.665395092151693
+        "prediccion": 12.66539509106563,
+        "error_absoluto": 10.66539509106563
       },
       {
         "fecha": "2024-01-23",
         "real": 12,
-        "prediccion": 9.967259863704518,
-        "error_absoluto": 2.032740136295482
+        "prediccion": 9.967259861776622,
+        "error_absoluto": 2.032740138223378
       },
       {
         "fecha": "2024-01-24",
         "real": 16,
-        "prediccion": 12.347987191250173,
-        "error_absoluto": 3.652012808749827
+        "prediccion": 12.347987188493436,
+        "error_absoluto": 3.652012811506564
       },
       {
         "fecha": "2024-01-25",
         "real": 11,
-        "prediccion": 12.36108275057717,
-        "error_absoluto": 1.3610827505771699
+        "prediccion": 12.361082748565714,
+        "error_absoluto": 1.361082748565714
       },
       {
         "fecha": "2024-01-26",
         "real": 8,
-        "prediccion": 11.48419828164664,
-        "error_absoluto": 3.4841982816466395
+        "prediccion": 11.4841982809551,
+        "error_absoluto": 3.4841982809551
       },
       {
         "fecha": "2024-01-27",
         "real": 12,
-        "prediccion": 10.84885079496911,
-        "error_absoluto": 1.1511492050308902
+        "prediccion": 10.848850796566737,
+        "error_absoluto": 1.1511492034332633
       },
       {
         "fecha": "2024-01-28",
         "real": 20,
-        "prediccion": 11.641803820418538,
-        "error_absoluto": 8.358196179581462
+        "prediccion": 11.641803820934763,
+        "error_absoluto": 8.358196179065237
       },
       {
         "fecha": "2024-01-29",
         "real": 14,
-        "prediccion": 13.448492899564602,
-        "error_absoluto": 0.5515071004353977
+        "prediccion": 13.448492899550445,
+        "error_absoluto": 0.5515071004495553
       },
       {
         "fecha": "2024-01-30",
         "real": 15,
-        "prediccion": 12.216356492777766,
-        "error_absoluto": 2.7836435072222336
+        "prediccion": 12.216356493987607,
+        "error_absoluto": 2.7836435060123925
       },
       {
         "fecha": "2024-01-31",
         "real": 18,
-        "prediccion": 13.178078509257356,
-        "error_absoluto": 4.821921490742644
+        "prediccion": 13.178078511346168,
+        "error_absoluto": 4.821921488653832
       },
       {
         "fecha": "2024-02-01",
         "real": 12,
-        "prediccion": 13.95778539733918,
-        "error_absoluto": 1.9577853973391797
+        "prediccion": 13.957785398724713,
+        "error_absoluto": 1.9577853987247131
       },
       {
         "fecha": "2024-02-02",
         "real": 17,
-        "prediccion": 12.97033774578884,
-        "error_absoluto": 4.029662254211161
+        "prediccion": 12.970337744966939,
+        "error_absoluto": 4.029662255033061
       },
       {
         "fecha": "2024-02-03",
         "real": 14,
-        "prediccion": 14.625827838662108,
-        "error_absoluto": 0.6258278386621079
+        "prediccion": 14.625827837588297,
+        "error_absoluto": 0.6258278375882966
       },
       {
         "fecha": "2024-02-04",
         "real": 14,
-        "prediccion": 13.724381997034275,
-        "error_absoluto": 0.27561800296572514
+        "prediccion": 13.724381995519805,
+        "error_absoluto": 0.27561800448019547
       },
       {
         "fecha": "2024-02-05",
         "real": 13,
-        "prediccion": 14.2004703834722,
-        "error_absoluto": 1.2004703834722008
+        "prediccion": 14.200470381181521,
+        "error_absoluto": 1.2004703811815212
       },
       {
         "fecha": "2024-02-06",
         "real": 14,
-        "prediccion": 13.810632379759307,
-        "error_absoluto": 0.1893676202406933
+        "prediccion": 13.810632378000996,
+        "error_absoluto": 0.18936762199900414
       },
       {
         "fecha": "2024-02-07",
         "real": 16,
-        "prediccion": 14.120203969965855,
-        "error_absoluto": 1.8797960300341447
+        "prediccion": 14.1202039676371,
+        "error_absoluto": 1.8797960323629006
       },
       {
         "fecha": "2024-02-08",
         "real": 12,
-        "prediccion": 14.504291485099479,
-        "error_absoluto": 2.504291485099479
+        "prediccion": 14.5042914833656,
+        "error_absoluto": 2.5042914833656003
       },
       {
         "fecha": "2024-02-09",
         "real": 18,
-        "prediccion": 13.558420933732746,
-        "error_absoluto": 4.441579066267254
+        "prediccion": 13.558420932407401,
+        "error_absoluto": 4.441579067592599
       },
       {
         "fecha": "2024-02-10",
         "real": 13,
-        "prediccion": 15.166590921505824,
-        "error_absoluto": 2.166590921505824
+        "prediccion": 15.166590920784236,
+        "error_absoluto": 2.1665909207842358
       },
       {
         "fecha": "2024-02-11",
         "real": 12,
-        "prediccion": 13.740953227674682,
-        "error_absoluto": 1.740953227674682
+        "prediccion": 13.740953227109932,
+        "error_absoluto": 1.740953227109932
       },
       {
         "fecha": "2024-02-12",
         "real": 19,
-        "prediccion": 13.943682387029837,
-        "error_absoluto": 5.0563176129701635
+        "prediccion": 13.943682385961765,
+        "error_absoluto": 5.056317614038235
       },
       {
         "fecha": "2024-02-13",
         "real": 11,
-        "prediccion": 15.360464199189533,
-        "error_absoluto": 4.360464199189533
+        "prediccion": 15.360464198730932,
+        "error_absoluto": 4.3604641987309325
       },
       {
         "fecha": "2024-02-14",
         "real": 13,
-        "prediccion": 13.380831208142856,
-        "error_absoluto": 0.3808312081428564
+        "prediccion": 13.38083120701073,
+        "error_absoluto": 0.38083120701072914
       },
       {
         "fecha": "2024-02-15",
         "real": 13,
-        "prediccion": 14.280246162756637,
-        "error_absoluto": 1.2802461627566366
+        "prediccion": 14.280246162005675,
+        "error_absoluto": 1.2802461620056746
       },
       {
         "fecha": "2024-02-16",
         "real": 19,
-        "prediccion": 13.75404933656205,
-        "error_absoluto": 5.2459506634379505
+        "prediccion": 13.754049335981396,
+        "error_absoluto": 5.245950664018604
       },
       {
         "fecha": "2024-02-17",
         "real": 14,
-        "prediccion": 15.331157219783085,
-        "error_absoluto": 1.3311572197830852
+        "prediccion": 15.331157218641415,
+        "error_absoluto": 1.3311572186414153
       },
       {
         "fecha": "2024-02-18",
         "real": 11,
-        "prediccion": 13.992587960347667,
-        "error_absoluto": 2.9925879603476666
+        "prediccion": 13.992587960721698,
+        "error_absoluto": 2.992587960721698
       },
       {
         "fecha": "2024-02-19",
         "real": 10,
-        "prediccion": 13.703850721390008,
-        "error_absoluto": 3.7038507213900083
+        "prediccion": 13.70385072175946,
+        "error_absoluto": 3.7038507217594603
       },
       {
         "fecha": "2024-02-20",
         "real": 14,
-        "prediccion": 13.218612411922864,
-        "error_absoluto": 0.7813875880771359
+        "prediccion": 13.21861241155923,
+        "error_absoluto": 0.7813875884407704
       },
       {
         "fecha": "2024-02-21",
         "real": 16,
-        "prediccion": 13.97591412040425,
-        "error_absoluto": 2.0240858795957504
+        "prediccion": 13.975914118658523,
+        "error_absoluto": 2.0240858813414775
       },
       {
         "fecha": "2024-02-22",
         "real": 13,
-        "prediccion": 14.152505061016143,
-        "error_absoluto": 1.152505061016143
+        "prediccion": 14.152505060200355,
+        "error_absoluto": 1.1525050602003546
       },
       {
         "fecha": "2024-02-23",
         "real": 12,
-        "prediccion": 13.475729605866615,
-        "error_absoluto": 1.475729605866615
+        "prediccion": 13.475729606456964,
+        "error_absoluto": 1.475729606456964
       },
       {
         "fecha": "2024-02-24",
         "real": 13,
-        "prediccion": 13.326375727318846,
-        "error_absoluto": 0.3263757273188457
+        "prediccion": 13.326375728538295,
+        "error_absoluto": 0.3263757285382951
       },
       {
         "fecha": "2024-02-25",
         "real": 12,
-        "prediccion": 13.443280890426466,
-        "error_absoluto": 1.4432808904264665
+        "prediccion": 13.443280890942741,
+        "error_absoluto": 1.4432808909427415
       },
       {
         "fecha": "2024-02-26",
         "real": 16,
-        "prediccion": 13.115590548961215,
-        "error_absoluto": 2.8844094510387848
+        "prediccion": 13.11559054871431,
+        "error_absoluto": 2.8844094512856895
       },
       {
         "fecha": "2024-02-27",
         "real": 14,
-        "prediccion": 14.050911029676385,
-        "error_absoluto": 0.050911029676385056
+        "prediccion": 14.05091102989503,
+        "error_absoluto": 0.050911029895029714
       },
       {
         "fecha": "2024-02-28",
         "real": 6,
-        "prediccion": 13.431019470731755,
-        "error_absoluto": 7.431019470731755
+        "prediccion": 13.431019471595146,
+        "error_absoluto": 7.431019471595146
       },
       {
         "fecha": "2024-02-29",
         "real": 16,
-        "prediccion": 11.725926194256086,
-        "error_absoluto": 4.274073805743914
+        "prediccion": 11.725926194686114,
+        "error_absoluto": 4.274073805313886
       },
       {
         "fecha": "2024-03-01",
         "real": 18,
-        "prediccion": 14.034183912901328,
-        "error_absoluto": 3.9658160870986716
+        "prediccion": 14.034183913063679,
+        "error_absoluto": 3.9658160869363215
       },
       {
         "fecha": "2024-03-02",
         "real": 13,
-        "prediccion": 13.949282330231073,
-        "error_absoluto": 0.9492823302310729
+        "prediccion": 13.949282330257464,
+        "error_absoluto": 0.9492823302574642
       },
       {
         "fecha": "2024-03-03",
         "real": 11,
-        "prediccion": 13.264725148498695,
-        "error_absoluto": 2.2647251484986946
+        "prediccion": 13.264725149290888,
+        "error_absoluto": 2.2647251492908875
       },
       {
         "fecha": "2024-03-04",
         "real": 16,
-        "prediccion": 12.938814270450516,
-        "error_absoluto": 3.061185729549484
+        "prediccion": 12.938814272452195,
+        "error_absoluto": 3.061185727547805
       },
       {
         "fecha": "2024-03-05",
         "real": 15,
-        "prediccion": 14.08143498426321,
-        "error_absoluto": 0.9185650157367906
+        "prediccion": 14.081434984703833,
+        "error_absoluto": 0.9185650152961671
       },
       {
         "fecha": "2024-03-06",
         "real": 13,
-        "prediccion": 13.78615130619989,
-        "error_absoluto": 0.7861513061998906
+        "prediccion": 13.78615130571763,
+        "error_absoluto": 0.7861513057176293
       },
       {
         "fecha": "2024-03-07",
         "real": 9,
-        "prediccion": 13.589566905926166,
-        "error_absoluto": 4.589566905926166
+        "prediccion": 13.589566905946768,
+        "error_absoluto": 4.589566905946768
       },
       {
         "fecha": "2024-03-08",
         "real": 15,
-        "prediccion": 12.57732499081844,
-        "error_absoluto": 2.4226750091815603
+        "prediccion": 12.57732499089033,
+        "error_absoluto": 2.4226750091096694
       },
       {
         "fecha": "2024-03-09",
         "real": 12,
-        "prediccion": 13.963038007952074,
-        "error_absoluto": 1.9630380079520737
+        "prediccion": 13.963038007044988,
+        "error_absoluto": 1.9630380070449878
       },
       {
         "fecha": "2024-03-10",
         "real": 6,
-        "prediccion": 12.857426594097236,
-        "error_absoluto": 6.857426594097236
+        "prediccion": 12.857426593152633,
+        "error_absoluto": 6.857426593152633
       },
       {
         "fecha": "2024-03-11",
         "real": 11,
-        "prediccion": 11.585127996818917,
-        "error_absoluto": 0.5851279968189171
+        "prediccion": 11.58512799601342,
+        "error_absoluto": 0.5851279960134192
       },
       {
         "fecha": "2024-03-12",
         "real": 11,
-        "prediccion": 12.414640343851516,
-        "error_absoluto": 1.4146403438515165
+        "prediccion": 12.414640343594897,
+        "error_absoluto": 1.4146403435948969
       },
       {
         "fecha": "2024-03-13",
         "real": 11,
-        "prediccion": 11.814259524202955,
-        "error_absoluto": 0.8142595242029547
+        "prediccion": 11.814259523481349,
+        "error_absoluto": 0.8142595234813488
       },
       {
         "fecha": "2024-03-14",
         "real": 12,
-        "prediccion": 11.793675579789515,
-        "error_absoluto": 0.20632442021048547
+        "prediccion": 11.793675579916274,
+        "error_absoluto": 0.20632442008372642
       },
       {
         "fecha": "2024-03-15",
         "real": 9,
-        "prediccion": 11.767097938725076,
-        "error_absoluto": 2.767097938725076
+        "prediccion": 11.767097940590155,
+        "error_absoluto": 2.767097940590155
       },
       {
         "fecha": "2024-03-16",
         "real": 7,
-        "prediccion": 10.952835921847608,
-        "error_absoluto": 3.9528359218476083
+        "prediccion": 10.952835923544942,
+        "error_absoluto": 3.952835923544942
       },
       {
         "fecha": "2024-03-17",
         "real": 10,
-        "prediccion": 10.441914289300023,
-        "error_absoluto": 0.44191428930002274
+        "prediccion": 10.441914290478465,
+        "error_absoluto": 0.441914290478465
       },
       {
         "fecha": "2024-03-18",
         "real": 14,
-        "prediccion": 10.845485458995071,
-        "error_absoluto": 3.1545145410049287
+        "prediccion": 10.845485459766307,
+        "error_absoluto": 3.154514540233693
       },
       {
         "fecha": "2024-03-19",
         "real": 14,
-        "prediccion": 11.495849700519798,
-        "error_absoluto": 2.5041502994802016
+        "prediccion": 11.49584970145587,
+        "error_absoluto": 2.504150298544131
       },
       {
         "fecha": "2024-03-20",
         "real": 18,
-        "prediccion": 11.501946082564661,
-        "error_absoluto": 6.498053917435339
+        "prediccion": 11.501946084748468,
+        "error_absoluto": 6.498053915251532
       },
       {
         "fecha": "2024-03-21",
         "real": 11,
-        "prediccion": 12.768650732589435,
-        "error_absoluto": 1.7686507325894354
+        "prediccion": 12.768650736120396,
+        "error_absoluto": 1.7686507361203958
       },
       {
         "fecha": "2024-03-22",
         "real": 17,
-        "prediccion": 11.34224975835497,
-        "error_absoluto": 5.657750241645029
+        "prediccion": 11.342249761537502,
+        "error_absoluto": 5.657750238462498
       },
       {
         "fecha": "2024-03-23",
         "real": 17,
-        "prediccion": 13.47205559598829,
-        "error_absoluto": 3.527944404011709
+        "prediccion": 13.472055597773469,
+        "error_absoluto": 3.527944402226531
       },
       {
         "fecha": "2024-03-24",
         "real": 13,
-        "prediccion": 13.382731594895287,
-        "error_absoluto": 0.3827315948952865
+        "prediccion": 13.382731595807826,
+        "error_absoluto": 0.3827315958078259
       },
       {
         "fecha": "2024-03-25",
         "real": 9,
-        "prediccion": 13.108767786811324,
-        "error_absoluto": 4.108767786811324
+        "prediccion": 13.108767786358985,
+        "error_absoluto": 4.108767786358985
       },
       {
         "fecha": "2024-03-26",
         "real": 8,
-        "prediccion": 12.345940474045852,
-        "error_absoluto": 4.345940474045852
+        "prediccion": 12.345940473334116,
+        "error_absoluto": 4.345940473334116
       },
       {
         "fecha": "2024-03-27",
         "real": 15,
-        "prediccion": 12.024000478210617,
-        "error_absoluto": 2.975999521789383
+        "prediccion": 12.024000475535203,
+        "error_absoluto": 2.9759995244647968
       },
       {
         "fecha": "2024-03-28",
         "real": 5,
-        "prediccion": 13.37908595248974,
-        "error_absoluto": 8.37908595248974
+        "prediccion": 13.379085949208841,
+        "error_absoluto": 8.379085949208841
       },
       {
         "fecha": "2024-03-29",
         "real": 7,
-        "prediccion": 10.542672974398961,
-        "error_absoluto": 3.542672974398961
+        "prediccion": 10.542672971867082,
+        "error_absoluto": 3.5426729718670824
       },
       {
         "fecha": "2024-03-30",
         "real": 11,
-        "prediccion": 11.137152904976507,
-        "error_absoluto": 0.13715290497650656
+        "prediccion": 11.137152903471677,
+        "error_absoluto": 0.13715290347167652
       },
       {
         "fecha": "2024-03-31",
         "real": 16,
-        "prediccion": 11.163400630470285,
-        "error_absoluto": 4.836599369529715
+        "prediccion": 11.163400629881403,
+        "error_absoluto": 4.836599370118597
       },
       {
         "fecha": "2024-04-01",
         "real": 11,
-        "prediccion": 12.222052039877097,
-        "error_absoluto": 1.2220520398770969
+        "prediccion": 12.22205203961878,
+        "error_absoluto": 1.2220520396187808
       },
       {
         "fecha": "2024-04-02",
         "real": 9,
-        "prediccion": 10.95787375821382,
-        "error_absoluto": 1.95787375821382
+        "prediccion": 10.957873760476655,
+        "error_absoluto": 1.9578737604766552
       },
       {
         "fecha": "2024-04-03",
         "real": 16,
-        "prediccion": 10.819558668151014,
-        "error_absoluto": 5.180441331848986
+        "prediccion": 10.819558670840205,
+        "error_absoluto": 5.180441329159795
       },
       {
         "fecha": "2024-04-04",
         "real": 14,
-        "prediccion": 12.39187474797888,
-        "error_absoluto": 1.6081252520211198
+        "prediccion": 12.391874749902332,
+        "error_absoluto": 1.6081252500976682
       },
       {
         "fecha": "2024-04-05",
         "real": 16,
-        "prediccion": 11.911955061108365,
-        "error_absoluto": 4.088044938891635
+        "prediccion": 11.911955061982074,
+        "error_absoluto": 4.0880449380179265
       },
       {
         "fecha": "2024-04-06",
         "real": 24,
-        "prediccion": 12.934674947398467,
-        "error_absoluto": 11.065325052601533
+        "prediccion": 12.934674948847773,
+        "error_absoluto": 11.065325051152227
       },
       {
         "fecha": "2024-04-07",
         "real": 16,
-        "prediccion": 15.034863018415765,
-        "error_absoluto": 0.9651369815842354
+        "prediccion": 15.034863020893503,
+        "error_absoluto": 0.9651369791064965
       },
       {
         "fecha": "2024-04-08",
         "real": 19,
-        "prediccion": 13.695746626034794,
-        "error_absoluto": 5.3042533739652065
+        "prediccion": 13.695746627666008,
+        "error_absoluto": 5.304253372333992
       },
       {
         "fecha": "2024-04-09",
         "real": 16,
-        "prediccion": 15.510573681707154,
-        "error_absoluto": 0.4894263182928462
+        "prediccion": 15.510573682652185,
+        "error_absoluto": 0.4894263173478155
       },
       {
         "fecha": "2024-04-10",
         "real": 20,
-        "prediccion": 14.883118753779078,
-        "error_absoluto": 5.116881246220922
+        "prediccion": 14.88311875317682,
+        "error_absoluto": 5.11688124682318
       },
       {
         "fecha": "2024-04-11",
         "real": 18,
-        "prediccion": 16.574778102150127,
-        "error_absoluto": 1.4252218978498732
+        "prediccion": 16.57477809918909,
+        "error_absoluto": 1.4252219008109108
       },
       {
         "fecha": "2024-04-12",
         "real": 12,
-        "prediccion": 16.16294126772115,
-        "error_absoluto": 4.162941267721148
+        "prediccion": 16.162941265054105,
+        "error_absoluto": 4.162941265054105
       },
       {
         "fecha": "2024-04-13",
         "real": 15,
-        "prediccion": 15.220956610196989,
-        "error_absoluto": 0.2209566101969891
+        "prediccion": 15.220956606745961,
+        "error_absoluto": 0.22095660674596118
       },
       {
         "fecha": "2024-04-14",
         "real": 10,
-        "prediccion": 15.985504655416491,
-        "error_absoluto": 5.9855046554164915
+        "prediccion": 15.985504651707286,
+        "error_absoluto": 5.985504651707286
       },
       {
         "fecha": "2024-04-15",
         "real": 18,
-        "prediccion": 14.394772559712134,
-        "error_absoluto": 3.605227440287866
+        "prediccion": 14.394772554987682,
+        "error_absoluto": 3.605227445012318
       },
       {
         "fecha": "2024-04-16",
         "real": 10,
-        "prediccion": 16.333897867196562,
-        "error_absoluto": 6.333897867196562
+        "prediccion": 16.333897862982344,
+        "error_absoluto": 6.333897862982344
       },
       {
         "fecha": "2024-04-17",
         "real": 8,
-        "prediccion": 13.742125008925907,
-        "error_absoluto": 5.742125008925907
+        "prediccion": 13.742125006450664,
+        "error_absoluto": 5.742125006450664
       },
       {
         "fecha": "2024-04-18",
         "real": 10,
-        "prediccion": 13.527895209441724,
-        "error_absoluto": 3.5278952094417235
+        "prediccion": 13.527895207164498,
+        "error_absoluto": 3.527895207164498
       },
       {
         "fecha": "2024-04-19",
         "real": 8,
-        "prediccion": 13.199801838006001,
-        "error_absoluto": 5.199801838006001
+        "prediccion": 13.199801836545141,
+        "error_absoluto": 5.1998018365451415
       },
       {
         "fecha": "2024-04-20",
         "real": 14,
-        "prediccion": 12.224230394583037,
-        "error_absoluto": 1.7757696054169632
+        "prediccion": 12.224230392400578,
+        "error_absoluto": 1.7757696075994218
       },
       {
         "fecha": "2024-04-21",
         "real": 9,
-        "prediccion": 13.271373276511804,
-        "error_absoluto": 4.271373276511804
+        "prediccion": 13.271373276213685,
+        "error_absoluto": 4.271373276213685
       },
       {
         "fecha": "2024-04-22",
         "real": 10,
-        "prediccion": 11.476651667907618,
-        "error_absoluto": 1.4766516679076176
+        "prediccion": 11.476651669371293,
+        "error_absoluto": 1.476651669371293
       },
       {
         "fecha": "2024-04-23",
         "real": 13,
-        "prediccion": 11.83475073689928,
-        "error_absoluto": 1.1652492631007192
+        "prediccion": 11.834750738918972,
+        "error_absoluto": 1.165249261081028
       },
       {
         "fecha": "2024-04-24",
         "real": 13,
-        "prediccion": 12.062117839249154,
-        "error_absoluto": 0.9378821607508456
+        "prediccion": 12.062117841929627,
+        "error_absoluto": 0.9378821580703729
       },
       {
         "fecha": "2024-04-25",
         "real": 12,
-        "prediccion": 12.030234073199557,
-        "error_absoluto": 0.030234073199556732
+        "prediccion": 12.0302340754091,
+        "error_absoluto": 0.030234075409099503
       },
       {
         "fecha": "2024-04-26",
         "real": 17,
-        "prediccion": 11.873831571869362,
-        "error_absoluto": 5.126168428130638
+        "prediccion": 11.873831574750447,
+        "error_absoluto": 5.126168425249553
       },
       {
         "fecha": "2024-04-27",
         "real": 10,
-        "prediccion": 13.157016705758457,
-        "error_absoluto": 3.1570167057584566
+        "prediccion": 13.157016708840867,
+        "error_absoluto": 3.1570167088408674
       },
       {
         "fecha": "2024-04-28",
         "real": 9,
-        "prediccion": 11.526174258034708,
-        "error_absoluto": 2.5261742580347075
+        "prediccion": 11.526174260343538,
+        "error_absoluto": 2.526174260343538
       },
       {
         "fecha": "2024-04-29",
         "real": 9,
-        "prediccion": 11.737824702060601,
-        "error_absoluto": 2.7378247020606015
+        "prediccion": 11.737824703255914,
+        "error_absoluto": 2.7378247032559138
       },
       {
         "fecha": "2024-04-30",
         "real": 14,
-        "prediccion": 11.337400597184114,
-        "error_absoluto": 2.6625994028158857
+        "prediccion": 11.337400597377309,
+        "error_absoluto": 2.662599402622691
       },
       {
         "fecha": "2024-05-01",
         "real": 9,
-        "prediccion": 12.414861118023433,
-        "error_absoluto": 3.414861118023433
+        "prediccion": 12.41486111715715,
+        "error_absoluto": 3.41486111715715
       },
       {
         "fecha": "2024-05-02",
         "real": 11,
-        "prediccion": 10.92887821919738,
-        "error_absoluto": 0.07112178080262055
+        "prediccion": 10.928878219395028,
+        "error_absoluto": 0.07112178060497243
       },
       {
         "fecha": "2024-05-03",
         "real": 15,
-        "prediccion": 11.579520948636151,
-        "error_absoluto": 3.4204790513638486
+        "prediccion": 11.579520949580607,
+        "error_absoluto": 3.4204790504193934
       },
       {
         "fecha": "2024-05-04",
         "real": 14,
-        "prediccion": 12.1839218821958,
-        "error_absoluto": 1.8160781178041994
+        "prediccion": 12.183921883695959,
+        "error_absoluto": 1.8160781163040411
       },
       {
         "fecha": "2024-05-05",
         "real": 10,
-        "prediccion": 12.091993109154485,
-        "error_absoluto": 2.091993109154485
+        "prediccion": 12.091993110386728,
+        "error_absoluto": 2.0919931103867277
       },
       {
         "fecha": "2024-05-06",
         "real": 18,
-        "prediccion": 11.407472317274328,
-        "error_absoluto": 6.592527682725672
+        "prediccion": 11.407472318995655,
+        "error_absoluto": 6.592527681004345
       },
       {
         "fecha": "2024-05-07",
         "real": 14,
-        "prediccion": 13.487712665523802,
-        "error_absoluto": 0.5122873344761985
+        "prediccion": 13.487712667022125,
+        "error_absoluto": 0.5122873329778752
       },
       {
         "fecha": "2024-05-08",
         "real": 11,
-        "prediccion": 12.460473110073597,
-        "error_absoluto": 1.4604731100735968
+        "prediccion": 12.460473110801498,
+        "error_absoluto": 1.460473110801498
       },
       {
         "fecha": "2024-05-09",
         "real": 11,
-        "prediccion": 12.407821618274703,
-        "error_absoluto": 1.4078216182747028
+        "prediccion": 12.40782161847334,
+        "error_absoluto": 1.4078216184733403
       },
       {
         "fecha": "2024-05-10",
         "real": 17,
-        "prediccion": 12.31272911374656,
-        "error_absoluto": 4.68727088625344
+        "prediccion": 12.312729113733972,
+        "error_absoluto": 4.6872708862660275
       },
       {
         "fecha": "2024-05-11",
         "real": 8,
-        "prediccion": 13.74403999792732,
-        "error_absoluto": 5.74403999792732
+        "prediccion": 13.744039996543737,
+        "error_absoluto": 5.744039996543737
       },
       {
         "fecha": "2024-05-12",
         "real": 23,
-        "prediccion": 11.488458264236932,
-        "error_absoluto": 11.511541735763068
+        "prediccion": 11.488458262937648,
+        "error_absoluto": 11.511541737062352
       },
       {
         "fecha": "2024-05-13",
         "real": 12,
-        "prediccion": 15.52977395031641,
-        "error_absoluto": 3.529773950316409
+        "prediccion": 15.529773950191467,
+        "error_absoluto": 3.5297739501914673
       },
       {
         "fecha": "2024-05-14",
         "real": 14,
-        "prediccion": 12.360552530031732,
-        "error_absoluto": 1.6394474699682675
+        "prediccion": 12.360552530649745,
+        "error_absoluto": 1.6394474693502552
       },
       {
         "fecha": "2024-05-15",
         "real": 12,
-        "prediccion": 14.042445939092216,
-        "error_absoluto": 2.0424459390922163
+        "prediccion": 14.042445938745749,
+        "error_absoluto": 2.0424459387457485
       },
       {
         "fecha": "2024-05-16",
         "real": 8,
-        "prediccion": 13.025637347462212,
-        "error_absoluto": 5.025637347462212
+        "prediccion": 13.02563734754301,
+        "error_absoluto": 5.025637347543009
       },
       {
         "fecha": "2024-05-17",
         "real": 10,
-        "prediccion": 12.370456582759683,
-        "error_absoluto": 2.370456582759683
+        "prediccion": 12.370456579908089,
+        "error_absoluto": 2.3704565799080886
       },
       {
         "fecha": "2024-05-18",
         "real": 16,
-        "prediccion": 12.544166759750357,
-        "error_absoluto": 3.4558332402496426
+        "prediccion": 12.544166757269656,
+        "error_absoluto": 3.4558332427303444
       },
       {
         "fecha": "2024-05-19",
         "real": 13,
-        "prediccion": 13.51598057904957,
-        "error_absoluto": 0.51598057904957
+        "prediccion": 13.515980577116204,
+        "error_absoluto": 0.5159805771162045
       },
       {
         "fecha": "2024-05-20",
         "real": 12,
-        "prediccion": 12.630887938335439,
-        "error_absoluto": 0.6308879383354391
+        "prediccion": 12.630887937841665,
+        "error_absoluto": 0.6308879378416652
       },
       {
         "fecha": "2024-05-21",
         "real": 11,
-        "prediccion": 12.628339182718914,
-        "error_absoluto": 1.6283391827189142
+        "prediccion": 12.628339183771011,
+        "error_absoluto": 1.6283391837710113
       },
       {
         "fecha": "2024-05-22",
         "real": 9,
-        "prediccion": 12.24554542022181,
-        "error_absoluto": 3.2455454202218093
+        "prediccion": 12.245545421270943,
+        "error_absoluto": 3.2455454212709434
       },
       {
         "fecha": "2024-05-23",
         "real": 16,
-        "prediccion": 11.750145812339339,
-        "error_absoluto": 4.249854187660661
+        "prediccion": 11.750145811924313,
+        "error_absoluto": 4.2498541880756875
       },
       {
         "fecha": "2024-05-24",
         "real": 16,
-        "prediccion": 13.295246577554195,
-        "error_absoluto": 2.7047534224458047
+        "prediccion": 13.295246577251245,
+        "error_absoluto": 2.7047534227487553
       },
       {
         "fecha": "2024-05-25",
         "real": 12,
-        "prediccion": 13.048646953369747,
-        "error_absoluto": 1.0486469533697473
+        "prediccion": 13.04864695397967,
+        "error_absoluto": 1.0486469539796701
       },
       {
         "fecha": "2024-05-26",
         "real": 15,
-        "prediccion": 12.507864571397672,
-        "error_absoluto": 2.492135428602328
+        "prediccion": 12.507864572738837,
+        "error_absoluto": 2.4921354272611627
       },
       {
         "fecha": "2024-05-27",
         "real": 16,
-        "prediccion": 13.391852806904978,
-        "error_absoluto": 2.6081471930950215
+        "prediccion": 13.391852808606057,
+        "error_absoluto": 2.608147191393943
       },
       {
         "fecha": "2024-05-28",
         "real": 15,
-        "prediccion": 13.63484034966179,
-        "error_absoluto": 1.3651596503382102
+        "prediccion": 13.634840350175185,
+        "error_absoluto": 1.3651596498248146
       },
       {
         "fecha": "2024-05-29",
         "real": 12,
-        "prediccion": 13.74605217965914,
-        "error_absoluto": 1.7460521796591397
+        "prediccion": 13.746052179621575,
+        "error_absoluto": 1.746052179621575
       },
       {
         "fecha": "2024-05-30",
         "real": 11,
-        "prediccion": 13.211377899406253,
-        "error_absoluto": 2.211377899406253
+        "prediccion": 13.21137789945058,
+        "error_absoluto": 2.2113778994505804
       },
       {
         "fecha": "2024-05-31",
         "real": 18,
-        "prediccion": 13.066177731217529,
-        "error_absoluto": 4.933822268782471
+        "prediccion": 13.06617773023685,
+        "error_absoluto": 4.93382226976315
       },
       {
         "fecha": "2024-06-01",
         "real": 22,
-        "prediccion": 14.641820708918601,
-        "error_absoluto": 7.358179291081399
+        "prediccion": 14.641820707484515,
+        "error_absoluto": 7.358179292515485
       },
       {
         "fecha": "2024-06-02",
         "real": 13,
-        "prediccion": 15.542875718364911,
-        "error_absoluto": 2.542875718364911
+        "prediccion": 15.542875717895248,
+        "error_absoluto": 2.5428757178952477
       },
       {
         "fecha": "2024-06-03",
         "real": 13,
-        "prediccion": 13.878212167103177,
-        "error_absoluto": 0.8782121671031771
+        "prediccion": 13.878212167790322,
+        "error_absoluto": 0.8782121677903216
       },
       {
         "fecha": "2024-06-04",
         "real": 11,
-        "prediccion": 14.4364649531191,
-        "error_absoluto": 3.436464953119099
+        "prediccion": 14.436464953668366,
+        "error_absoluto": 3.4364649536683665
       },
       {
         "fecha": "2024-06-05",
         "real": 12,
-        "prediccion": 13.69918708733112,
-        "error_absoluto": 1.6991870873311203
+        "prediccion": 13.69918708566449,
+        "error_absoluto": 1.6991870856644908
       },
       {
         "fecha": "2024-06-06",
         "real": 10,
-        "prediccion": 13.980563261083041,
-        "error_absoluto": 3.9805632610830415
+        "prediccion": 13.98056325752432,
+        "error_absoluto": 3.98056325752432
       },
       {
         "fecha": "2024-06-07",
         "real": 13,
-        "prediccion": 13.077769632121115,
-        "error_absoluto": 0.07776963212111454
+        "prediccion": 13.077769629437476,
+        "error_absoluto": 0.07776962943747634
       },
       {
         "fecha": "2024-06-08",
         "real": 10,
-        "prediccion": 13.578614739124953,
-        "error_absoluto": 3.578614739124953
+        "prediccion": 13.578614737327964,
+        "error_absoluto": 3.578614737327964
       },
       {
         "fecha": "2024-06-09",
         "real": 10,
-        "prediccion": 12.415040088541272,
-        "error_absoluto": 2.4150400885412715
+        "prediccion": 12.415040087837665,
+        "error_absoluto": 2.4150400878376654
       },
       {
         "fecha": "2024-06-10",
         "real": 6,
-        "prediccion": 12.359402043425277,
-        "error_absoluto": 6.359402043425277
+        "prediccion": 12.359402043188831,
+        "error_absoluto": 6.359402043188831
       },
       {
         "fecha": "2024-06-11",
         "real": 7,
-        "prediccion": 10.928387118366985,
-        "error_absoluto": 3.9283871183669845
+        "prediccion": 10.928387118456648,
+        "error_absoluto": 3.928387118456648
       },
       {
         "fecha": "2024-06-12",
         "real": 2,
-        "prediccion": 10.882791921894945,
-        "error_absoluto": 8.882791921894945
+        "prediccion": 10.882791921482264,
+        "error_absoluto": 8.882791921482264
       },
       {
         "fecha": "2024-06-13",
         "real": 13,
-        "prediccion": 8.947407688759743,
-        "error_absoluto": 4.052592311240257
+        "prediccion": 8.94740768846394,
+        "error_absoluto": 4.05259231153606
       },
       {
         "fecha": "2024-06-14",
         "real": 12,
-        "prediccion": 11.181808644609331,
-        "error_absoluto": 0.8181913553906686
+        "prediccion": 11.181808645076348,
+        "error_absoluto": 0.8181913549236519
       },
       {
         "fecha": "2024-06-15",
         "real": 17,
-        "prediccion": 10.095912851394361,
-        "error_absoluto": 6.9040871486056385
+        "prediccion": 10.095912854011726,
+        "error_absoluto": 6.904087145988274
       },
       {
         "fecha": "2024-06-16",
         "real": 15,
-        "prediccion": 11.766346098703629,
-        "error_absoluto": 3.233653901296371
+        "prediccion": 11.766346103137824,
+        "error_absoluto": 3.233653896862176
       },
       {
         "fecha": "2024-06-17",
         "real": 16,
-        "prediccion": 11.286606949383788,
-        "error_absoluto": 4.713393050616212
+        "prediccion": 11.286606955604016,
+        "error_absoluto": 4.713393044395984
       },
       {
         "fecha": "2024-06-18",
         "real": 11,
-        "prediccion": 12.322145950535973,
-        "error_absoluto": 1.3221459505359725
+        "prediccion": 12.322145955183998,
+        "error_absoluto": 1.3221459551839985
       },
       {
         "fecha": "2024-06-19",
         "real": 13,
-        "prediccion": 11.453207035705159,
-        "error_absoluto": 1.5467929642948413
+        "prediccion": 11.453207038740288,
+        "error_absoluto": 1.5467929612597118
       },
       {
         "fecha": "2024-06-20",
         "real": 11,
-        "prediccion": 12.453018388853577,
-        "error_absoluto": 1.453018388853577
+        "prediccion": 12.453018389391449,
+        "error_absoluto": 1.453018389391449
       },
       {
         "fecha": "2024-06-21",
         "real": 13,
-        "prediccion": 11.865628328589953,
-        "error_absoluto": 1.1343716714100474
+        "prediccion": 11.865628327788327,
+        "error_absoluto": 1.1343716722116728
       },
       {
         "fecha": "2024-06-22",
         "real": 15,
-        "prediccion": 12.554482075304582,
-        "error_absoluto": 2.4455179246954177
+        "prediccion": 12.554482073698606,
+        "error_absoluto": 2.4455179263013935
       },
       {
         "fecha": "2024-06-23",
         "real": 12,
-        "prediccion": 12.879174953251853,
-        "error_absoluto": 0.8791749532518534
+        "prediccion": 12.87917495246738,
+        "error_absoluto": 0.8791749524673804
       },
       {
         "fecha": "2024-06-24",
         "real": 10,
-        "prediccion": 12.301002265683513,
-        "error_absoluto": 2.301002265683513
+        "prediccion": 12.301002265099607,
+        "error_absoluto": 2.3010022650996067
       },
       {
         "fecha": "2024-06-25",
         "real": 15,
-        "prediccion": 11.989684821337338,
-        "error_absoluto": 3.010315178662662
+        "prediccion": 11.98968482088839,
+        "error_absoluto": 3.0103151791116094
       },
       {
         "fecha": "2024-06-26",
         "real": 7,
-        "prediccion": 13.099190507850725,
-        "error_absoluto": 6.099190507850725
+        "prediccion": 13.099190507077836,
+        "error_absoluto": 6.099190507077836
       },
       {
         "fecha": "2024-06-27",
         "real": 7,
-        "prediccion": 11.001607942623615,
-        "error_absoluto": 4.001607942623615
+        "prediccion": 11.001607941204039,
+        "error_absoluto": 4.001607941204039
       },
       {
         "fecha": "2024-06-28",
         "real": 12,
-        "prediccion": 11.192312110021163,
-        "error_absoluto": 0.8076878899788369
+        "prediccion": 11.192312108465973,
+        "error_absoluto": 0.8076878915340266
       },
       {
         "fecha": "2024-06-29",
         "real": 12,
-        "prediccion": 11.70394711209886,
-        "error_absoluto": 0.2960528879011406
+        "prediccion": 11.703947110953969,
+        "error_absoluto": 0.296052889046031
       },
       {
         "fecha": "2024-06-30",
         "real": 10,
-        "prediccion": 11.454505994921396,
-        "error_absoluto": 1.454505994921396
+        "prediccion": 11.454505993838183,
+        "error_absoluto": 1.4545059938381826
       },
       {
         "fecha": "2024-07-01",
         "real": 14,
-        "prediccion": 10.984265786444869,
-        "error_absoluto": 3.015734213555131
+        "prediccion": 10.984265787218911,
+        "error_absoluto": 3.015734212781089
       },
       {
         "fecha": "2024-07-02",
         "real": 20,
-        "prediccion": 11.885003154050263,
-        "error_absoluto": 8.114996845949737
+        "prediccion": 11.885003155865611,
+        "error_absoluto": 8.114996844134389
       },
       {
         "fecha": "2024-07-03",
         "real": 8,
-        "prediccion": 13.323684960100032,
-        "error_absoluto": 5.323684960100032
+        "prediccion": 13.32368496209455,
+        "error_absoluto": 5.32368496209455
       },
       {
         "fecha": "2024-07-04",
         "real": 9,
-        "prediccion": 10.80267443432982,
-        "error_absoluto": 1.8026744343298198
+        "prediccion": 10.80267443616085,
+        "error_absoluto": 1.8026744361608493
       },
       {
         "fecha": "2024-07-05",
         "real": 4,
-        "prediccion": 11.675773722548701,
-        "error_absoluto": 7.675773722548701
+        "prediccion": 11.675773723593535,
+        "error_absoluto": 7.675773723593535
       },
       {
         "fecha": "2024-07-06",
         "real": 11,
-        "prediccion": 9.86240979021354,
-        "error_absoluto": 1.1375902097864596
+        "prediccion": 9.862409789023024,
+        "error_absoluto": 1.1375902109769758
       },
       {
         "fecha": "2024-07-07",
         "real": 17,
-        "prediccion": 11.512110965089986,
-        "error_absoluto": 5.487889034910014
+        "prediccion": 11.51211096190624,
+        "error_absoluto": 5.48788903809376
       },
       {
         "fecha": "2024-07-08",
         "real": 17,
-        "prediccion": 12.210759714865343,
-        "error_absoluto": 4.789240285134657
+        "prediccion": 12.210759714110129,
+        "error_absoluto": 4.789240285889871
       },
       {
         "fecha": "2024-07-09",
         "real": 14,
-        "prediccion": 12.416085263876937,
-        "error_absoluto": 1.583914736123063
+        "prediccion": 12.41608526539758,
+        "error_absoluto": 1.5839147346024198
       },
       {
         "fecha": "2024-07-10",
         "real": 9,
-        "prediccion": 12.14159869071699,
-        "error_absoluto": 3.1415986907169895
+        "prediccion": 12.141598694275084,
+        "error_absoluto": 3.1415986942750838
       },
       {
         "fecha": "2024-07-11",
         "real": 8,
-        "prediccion": 11.345677098817834,
-        "error_absoluto": 3.345677098817834
+        "prediccion": 11.345677101026418,
+        "error_absoluto": 3.3456771010264177
       },
       {
         "fecha": "2024-07-12",
         "real": 8,
-        "prediccion": 11.281090202744362,
-        "error_absoluto": 3.2810902027443625
+        "prediccion": 11.281090202074695,
+        "error_absoluto": 3.2810902020746955
       },
       {
         "fecha": "2024-07-13",
         "real": 15,
-        "prediccion": 10.999798620612388,
-        "error_absoluto": 4.000201379387612
+        "prediccion": 10.999798618095317,
+        "error_absoluto": 4.000201381904683
       },
       {
         "fecha": "2024-07-14",
         "real": 14,
-        "prediccion": 12.408194304784008,
-        "error_absoluto": 1.5918056952159922
+        "prediccion": 12.408194302604034,
+        "error_absoluto": 1.5918056973959658
       },
       {
         "fecha": "2024-07-15",
         "real": 10,
-        "prediccion": 11.869582978941498,
-        "error_absoluto": 1.869582978941498
+        "prediccion": 11.869582978774949,
+        "error_absoluto": 1.8695829787749485
       },
       {
         "fecha": "2024-07-16",
         "real": 14,
-        "prediccion": 11.242449926434801,
-        "error_absoluto": 2.7575500735651985
+        "prediccion": 11.242449927571775,
+        "error_absoluto": 2.7575500724282254
       },
       {
         "fecha": "2024-07-17",
         "real": 20,
-        "prediccion": 12.267417595484833,
-        "error_absoluto": 7.732582404515167
+        "prediccion": 12.267417596975132,
+        "error_absoluto": 7.7325824030248675
       },
       {
         "fecha": "2024-07-18",
         "real": 7,
-        "prediccion": 13.69743867015762,
-        "error_absoluto": 6.69743867015762
+        "prediccion": 13.697438670947347,
+        "error_absoluto": 6.6974386709473475
       },
       {
         "fecha": "2024-07-19",
         "real": 12,
-        "prediccion": 10.924746720266054,
-        "error_absoluto": 1.0752532797339462
+        "prediccion": 10.924746720626924,
+        "error_absoluto": 1.0752532793730758
       },
       {
         "fecha": "2024-07-20",
         "real": 8,
-        "prediccion": 12.715404283779858,
-        "error_absoluto": 4.715404283779858
+        "prediccion": 12.715404283888507,
+        "error_absoluto": 4.715404283888507
       },
       {
         "fecha": "2024-07-21",
         "real": 4,
-        "prediccion": 11.059320063003504,
-        "error_absoluto": 7.059320063003504
+        "prediccion": 11.059320061636594,
+        "error_absoluto": 7.059320061636594
       },
       {
         "fecha": "2024-07-22",
         "real": 15,
-        "prediccion": 10.304750009780612,
-        "error_absoluto": 4.695249990219388
+        "prediccion": 10.304750006351131,
+        "error_absoluto": 4.6952499936488685
       },
       {
         "fecha": "2024-07-23",
         "real": 11,
-        "prediccion": 12.338236622434696,
-        "error_absoluto": 1.338236622434696
+        "prediccion": 12.338236620877154,
+        "error_absoluto": 1.3382366208771543
       },
       {
         "fecha": "2024-07-24",
         "real": 10,
-        "prediccion": 10.777198567553556,
-        "error_absoluto": 0.7771985675535564
+        "prediccion": 10.777198566969748,
+        "error_absoluto": 0.7771985669697479
       },
       {
         "fecha": "2024-07-25",
         "real": 8,
-        "prediccion": 10.969457518645111,
-        "error_absoluto": 2.969457518645111
+        "prediccion": 10.969457519643177,
+        "error_absoluto": 2.9694575196431767
       },
       {
         "fecha": "2024-07-26",
         "real": 12,
-        "prediccion": 10.149025375129874,
-        "error_absoluto": 1.8509746248701262
+        "prediccion": 10.149025377164364,
+        "error_absoluto": 1.8509746228356363
       },
       {
         "fecha": "2024-07-27",
         "real": 11,
-        "prediccion": 11.133523985370367,
-        "error_absoluto": 0.13352398537036692
+        "prediccion": 11.13352398584651,
+        "error_absoluto": 0.13352398584651048
       },
       {
         "fecha": "2024-07-28",
         "real": 14,
-        "prediccion": 10.655880979756361,
-        "error_absoluto": 3.344119020243639
+        "prediccion": 10.655880980390261,
+        "error_absoluto": 3.344119019609739
       },
       {
         "fecha": "2024-07-29",
         "real": 16,
-        "prediccion": 11.573139332768697,
-        "error_absoluto": 4.426860667231303
+        "prediccion": 11.573139334010273,
+        "error_absoluto": 4.426860665989727
       },
       {
         "fecha": "2024-07-30",
         "real": 17,
-        "prediccion": 12.045204065360572,
-        "error_absoluto": 4.954795934639428
+        "prediccion": 12.045204067540658,
+        "error_absoluto": 4.9547959324593425
       },
       {
         "fecha": "2024-07-31",
         "real": 12,
-        "prediccion": 12.720497145777479,
-        "error_absoluto": 0.7204971457774789
+        "prediccion": 12.72049714787839,
+        "error_absoluto": 0.7204971478783904
       },
       {
         "fecha": "2024-08-01",
         "real": 12,
-        "prediccion": 11.95858305007741,
-        "error_absoluto": 0.04141694992259026
+        "prediccion": 11.958583051820726,
+        "error_absoluto": 0.04141694817927366
       },
       {
         "fecha": "2024-08-02",
         "real": 15,
-        "prediccion": 12.425422242130168,
-        "error_absoluto": 2.5745777578698323
+        "prediccion": 12.42542224234336,
+        "error_absoluto": 2.5745777576566393
       },
       {
         "fecha": "2024-08-03",
         "real": 16,
-        "prediccion": 13.134946707267718,
-        "error_absoluto": 2.8650532927322825
+        "prediccion": 13.134946706058479,
+        "error_absoluto": 2.8650532939415214
       },
       {
         "fecha": "2024-08-04",
         "real": 11,
-        "prediccion": 13.515864405812135,
-        "error_absoluto": 2.5158644058121347
+        "prediccion": 13.515864404050264,
+        "error_absoluto": 2.515864404050264
       },
       {
         "fecha": "2024-08-05",
         "real": 18,
-        "prediccion": 12.535172613463194,
-        "error_absoluto": 5.464827386536806
+        "prediccion": 12.535172612295506,
+        "error_absoluto": 5.464827387704494
       },
       {
         "fecha": "2024-08-06",
         "real": 9,
-        "prediccion": 14.456218821081425,
-        "error_absoluto": 5.456218821081425
+        "prediccion": 14.45621882025287,
+        "error_absoluto": 5.45621882025287
       },
       {
         "fecha": "2024-08-07",
         "real": 7,
-        "prediccion": 12.08717476602681,
-        "error_absoluto": 5.087174766026809
+        "prediccion": 12.087174764565876,
+        "error_absoluto": 5.0871747645658765
       },
       {
         "fecha": "2024-08-08",
         "real": 17,
-        "prediccion": 12.098607296675954,
-        "error_absoluto": 4.901392703324046
+        "prediccion": 12.098607294135627,
+        "error_absoluto": 4.901392705864373
       },
       {
         "fecha": "2024-08-09",
         "real": 14,
-        "prediccion": 13.872169713678097,
-        "error_absoluto": 0.12783028632190252
+        "prediccion": 13.872169711685324,
+        "error_absoluto": 0.12783028831467647
       },
       {
         "fecha": "2024-08-10",
         "real": 11,
-        "prediccion": 12.862943408216902,
-        "error_absoluto": 1.8629434082169016
+        "prediccion": 12.862943406158736,
+        "error_absoluto": 1.8629434061587364
       },
       {
         "fecha": "2024-08-11",
         "real": 7,
-        "prediccion": 12.55533431119793,
-        "error_absoluto": 5.55533431119793
+        "prediccion": 12.555334311029346,
+        "error_absoluto": 5.5553343110293465
       },
       {
         "fecha": "2024-08-12",
         "real": 14,
-        "prediccion": 11.370548115415668,
-        "error_absoluto": 2.6294518845843324
+        "prediccion": 11.370548115838488,
+        "error_absoluto": 2.6294518841615115
       },
       {
         "fecha": "2024-08-13",
         "real": 15,
-        "prediccion": 12.945846664714558,
-        "error_absoluto": 2.0541533352854415
+        "prediccion": 12.945846663538061,
+        "error_absoluto": 2.0541533364619387
       },
       {
         "fecha": "2024-08-14",
         "real": 12,
-        "prediccion": 12.760983960991233,
-        "error_absoluto": 0.7609839609912328
+        "prediccion": 12.760983960249611,
+        "error_absoluto": 0.7609839602496109
       },
       {
         "fecha": "2024-08-15",
         "real": 12,
-        "prediccion": 12.30448930823968,
-        "error_absoluto": 0.30448930823967935
+        "prediccion": 12.304489308698727,
+        "error_absoluto": 0.30448930869872726
       },
       {
         "fecha": "2024-08-16",
         "real": 15,
-        "prediccion": 12.35698874187241,
-        "error_absoluto": 2.64301125812759
+        "prediccion": 12.356988743392794,
+        "error_absoluto": 2.643011256607206
       },
       {
         "fecha": "2024-08-17",
         "real": 14,
-        "prediccion": 13.052913355218077,
-        "error_absoluto": 0.9470866447819226
+        "prediccion": 13.052913355889782,
+        "error_absoluto": 0.9470866441102181
       },
       {
         "fecha": "2024-08-18",
         "real": 14,
-        "prediccion": 12.891567106042404,
-        "error_absoluto": 1.1084328939575965
+        "prediccion": 12.891567106231086,
+        "error_absoluto": 1.1084328937689136
       },
       {
         "fecha": "2024-08-19",
         "real": 11,
-        "prediccion": 13.141820178343515,
-        "error_absoluto": 2.141820178343515
+        "prediccion": 13.141820178835815,
+        "error_absoluto": 2.1418201788358147
       },
       {
         "fecha": "2024-08-20",
         "real": 17,
-        "prediccion": 12.461070142478011,
-        "error_absoluto": 4.538929857521989
+        "prediccion": 12.461070142748039,
+        "error_absoluto": 4.538929857251961
       },
       {
         "fecha": "2024-08-21",
         "real": 16,
-        "prediccion": 14.062024123432113,
-        "error_absoluto": 1.9379758765678865
+        "prediccion": 14.062024123079382,
+        "error_absoluto": 1.9379758769206177
       },
       {
         "fecha": "2024-08-22",
         "real": 8,
-        "prediccion": 13.694261370186132,
-        "error_absoluto": 5.6942613701861315
+        "prediccion": 13.694261370020355,
+        "error_absoluto": 5.694261370020355
       },
       {
         "fecha": "2024-08-23",
         "real": 15,
-        "prediccion": 12.200530607529089,
-        "error_absoluto": 2.799469392470911
+        "prediccion": 12.200530607094878,
+        "error_absoluto": 2.799469392905122
       },
       {
         "fecha": "2024-08-24",
         "real": 13,
-        "prediccion": 13.94148321414112,
-        "error_absoluto": 0.9414832141411207
+        "prediccion": 13.9414832137087,
+        "error_absoluto": 0.9414832137087004
       },
       {
         "fecha": "2024-08-25",
         "real": 11,
-        "prediccion": 13.002497047113172,
-        "error_absoluto": 2.002497047113172
+        "prediccion": 13.002497045703837,
+        "error_absoluto": 2.002497045703837
       },
       {
         "fecha": "2024-08-26",
         "real": 11,
-        "prediccion": 12.862880028149647,
-        "error_absoluto": 1.8628800281496467
+        "prediccion": 12.86288002662941,
+        "error_absoluto": 1.8628800266294103
       },
       {
         "fecha": "2024-08-27",
         "real": 15,
-        "prediccion": 12.5915244802405,
-        "error_absoluto": 2.4084755197595005
+        "prediccion": 12.591524479954456,
+        "error_absoluto": 2.4084755200455437
       },
       {
         "fecha": "2024-08-28",
         "real": 12,
-        "prediccion": 13.409151877467766,
-        "error_absoluto": 1.4091518774677656
+        "prediccion": 13.409151876787703,
+        "error_absoluto": 1.4091518767877034
       },
       {
         "fecha": "2024-08-29",
         "real": 19,
-        "prediccion": 12.556818367302865,
-        "error_absoluto": 6.443181632697135
+        "prediccion": 12.55681836708009,
+        "error_absoluto": 6.443181632919909
       },
       {
         "fecha": "2024-08-30",
         "real": 18,
-        "prediccion": 14.475741210463628,
-        "error_absoluto": 3.524258789536372
+        "prediccion": 14.475741211302275,
+        "error_absoluto": 3.5242587886977255
       },
       {
         "fecha": "2024-08-31",
         "real": 17,
-        "prediccion": 14.14492750531917,
-        "error_absoluto": 2.8550724946808295
+        "prediccion": 14.144927507032994,
+        "error_absoluto": 2.8550724929670057
       },
       {
         "fecha": "2024-09-01",
         "real": 21,
-        "prediccion": 14.633429039431299,
-        "error_absoluto": 6.366570960568701
+        "prediccion": 14.633429040821293,
+        "error_absoluto": 6.366570959178707
       },
       {
         "fecha": "2024-09-02",
         "real": 15,
-        "prediccion": 15.930347289965075,
-        "error_absoluto": 0.9303472899650753
+        "prediccion": 15.930347291504184,
+        "error_absoluto": 0.9303472915041837
       },
       {
         "fecha": "2024-09-03",
         "real": 20,
-        "prediccion": 14.884130556315824,
-        "error_absoluto": 5.115869443684176
+        "prediccion": 14.884130556191419,
+        "error_absoluto": 5.115869443808581
       },
       {
         "fecha": "2024-09-04",
         "real": 18,
-        "prediccion": 16.763097974004186,
-        "error_absoluto": 1.2369020259958141
+        "prediccion": 16.763097972931494,
+        "error_absoluto": 1.2369020270685063
       },
       {
         "fecha": "2024-09-05",
         "real": 12,
-        "prediccion": 16.222416783523787,
-        "error_absoluto": 4.222416783523787
+        "prediccion": 16.222416781999765,
+        "error_absoluto": 4.222416781999765
       },
       {
         "fecha": "2024-09-06",
         "real": 23,
-        "prediccion": 15.34560314463388,
-        "error_absoluto": 7.6543968553661195
+        "prediccion": 15.345603141750608,
+        "error_absoluto": 7.654396858249392
       },
       {
         "fecha": "2024-09-07",
         "real": 11,
-        "prediccion": 18.050602365342115,
-        "error_absoluto": 7.050602365342115
+        "prediccion": 18.05060236297657,
+        "error_absoluto": 7.050602362976569
       },
       {
         "fecha": "2024-09-08",
         "real": 13,
-        "prediccion": 14.840421331265345,
-        "error_absoluto": 1.840421331265345
+        "prediccion": 14.840421328259268,
+        "error_absoluto": 1.8404213282592679
       },
       {
         "fecha": "2024-09-09",
         "real": 16,
-        "prediccion": 16.021517650230678,
-        "error_absoluto": 0.021517650230677532
+        "prediccion": 16.021517647025455,
+        "error_absoluto": 0.021517647025454778
       },
       {
         "fecha": "2024-09-10",
         "real": 19,
-        "prediccion": 15.889911475483723,
-        "error_absoluto": 3.110088524516277
+        "prediccion": 15.889911473227615,
+        "error_absoluto": 3.110088526772385
       },
       {
         "fecha": "2024-09-11",
         "real": 16,
-        "prediccion": 16.660143728124666,
-        "error_absoluto": 0.660143728124666
+        "prediccion": 16.66014372524073,
+        "error_absoluto": 0.6601437252407294
       },
       {
         "fecha": "2024-09-12",
         "real": 12,
-        "prediccion": 15.882874782804455,
-        "error_absoluto": 3.882874782804455
+        "prediccion": 15.882874782313177,
+        "error_absoluto": 3.882874782313177
       },
       {
         "fecha": "2024-09-13",
         "real": 15,
-        "prediccion": 15.100971985868421,
-        "error_absoluto": 0.10097198586842104
+        "prediccion": 15.100971985871425,
+        "error_absoluto": 0.10097198587142486
       },
       {
         "fecha": "2024-09-14",
         "real": 13,
-        "prediccion": 15.714378706834916,
-        "error_absoluto": 2.714378706834916
+        "prediccion": 15.714378706157685,
+        "error_absoluto": 2.714378706157685
       },
       {
         "fecha": "2024-09-15",
         "real": 11,
-        "prediccion": 14.918528269064648,
-        "error_absoluto": 3.918528269064648
+        "prediccion": 14.918528267511839,
+        "error_absoluto": 3.9185282675118387
       },
       {
         "fecha": "2024-09-16",
         "real": 20,
-        "prediccion": 14.39868837874142,
-        "error_absoluto": 5.60131162125858
+        "prediccion": 14.398688377345652,
+        "error_absoluto": 5.6013116226543485
       },
       {
         "fecha": "2024-09-17",
         "real": 17,
-        "prediccion": 16.231189871332948,
-        "error_absoluto": 0.7688101286670523
+        "prediccion": 16.231189871296394,
+        "error_absoluto": 0.7688101287036062
       },
       {
         "fecha": "2024-09-18",
         "real": 15,
-        "prediccion": 15.22925152312456,
-        "error_absoluto": 0.2292515231245602
+        "prediccion": 15.22925152391864,
+        "error_absoluto": 0.22925152391863968
       },
       {
         "fecha": "2024-09-19",
         "real": 19,
-        "prediccion": 15.28643798515088,
-        "error_absoluto": 3.7135620148491206
+        "prediccion": 15.286437986769755,
+        "error_absoluto": 3.713562013230245
       },
       {
         "fecha": "2024-09-20",
         "real": 23,
-        "prediccion": 16.222117872044922,
-        "error_absoluto": 6.777882127955078
+        "prediccion": 16.22211787415271,
+        "error_absoluto": 6.777882125847292
       },
       {
         "fecha": "2024-09-21",
         "real": 16,
-        "prediccion": 17.3590431078061,
-        "error_absoluto": 1.3590431078061016
+        "prediccion": 17.359043108818344,
+        "error_absoluto": 1.3590431088183443
       },
       {
         "fecha": "2024-09-22",
         "real": 18,
-        "prediccion": 16.124649350630396,
-        "error_absoluto": 1.8753506493696044
+        "prediccion": 16.124649351529467,
+        "error_absoluto": 1.8753506484705333
       },
       {
         "fecha": "2024-09-23",
         "real": 6,
-        "prediccion": 17.178684075278003,
-        "error_absoluto": 11.178684075278003
+        "prediccion": 17.17868407588597,
+        "error_absoluto": 11.178684075885968
       },
       {
         "fecha": "2024-09-24",
         "real": 13,
-        "prediccion": 14.086241564494266,
-        "error_absoluto": 1.0862415644942658
+        "prediccion": 14.086241562963558,
+        "error_absoluto": 1.0862415629635578
       },
       {
         "fecha": "2024-09-25",
         "real": 10,
-        "prediccion": 15.957210560557037,
-        "error_absoluto": 5.957210560557037
+        "prediccion": 15.957210556715218,
+        "error_absoluto": 5.957210556715218
       },
       {
         "fecha": "2024-09-26",
         "real": 17,
-        "prediccion": 14.074899956011146,
-        "error_absoluto": 2.925100043988854
+        "prediccion": 14.074899952509728,
+        "error_absoluto": 2.9251000474902717
       },
       {
         "fecha": "2024-09-27",
         "real": 19,
-        "prediccion": 15.730348021221705,
-        "error_absoluto": 3.2696519787782954
+        "prediccion": 15.730348018695345,
+        "error_absoluto": 3.269651981304655
       },
       {
         "fecha": "2024-09-28",
         "real": 8,
-        "prediccion": 15.526092096283449,
-        "error_absoluto": 7.526092096283449
+        "prediccion": 15.526092097535027,
+        "error_absoluto": 7.526092097535027
       },
       {
         "fecha": "2024-09-29",
         "real": 10,
-        "prediccion": 13.146425186659318,
-        "error_absoluto": 3.146425186659318
+        "prediccion": 13.1464251884472,
+        "error_absoluto": 3.1464251884472
       },
       {
         "fecha": "2024-09-30",
         "real": 10,
-        "prediccion": 13.741046783519106,
-        "error_absoluto": 3.7410467835191064
+        "prediccion": 13.741046785177984,
+        "error_absoluto": 3.741046785177984
       },
       {
         "fecha": "2024-10-01",
         "real": 11,
-        "prediccion": 12.995009433237339,
-        "error_absoluto": 1.995009433237339
+        "prediccion": 12.99500943308588,
+        "error_absoluto": 1.9950094330858796
       },
       {
         "fecha": "2024-10-02",
         "real": 11,
-        "prediccion": 13.049136688175567,
-        "error_absoluto": 2.049136688175567
+        "prediccion": 13.049136687146559,
+        "error_absoluto": 2.049136687146559
       },
       {
         "fecha": "2024-10-03",
         "real": 16,
-        "prediccion": 12.549619286855679,
-        "error_absoluto": 3.4503807131443214
+        "prediccion": 12.549619287814423,
+        "error_absoluto": 3.450380712185577
       },
       {
         "fecha": "2024-10-04",
         "real": 17,
-        "prediccion": 13.52745513882202,
-        "error_absoluto": 3.4725448611779797
+        "prediccion": 13.527455141004213,
+        "error_absoluto": 3.4725448589957875
       },
       {
         "fecha": "2024-10-05",
         "real": 17,
-        "prediccion": 13.62088636137305,
-        "error_absoluto": 3.3791136386269507
+        "prediccion": 13.620886364713703,
+        "error_absoluto": 3.3791136352862967
       },
       {
         "fecha": "2024-10-06",
         "real": 14,
-        "prediccion": 14.005508808612404,
-        "error_absoluto": 0.005508808612404437
+        "prediccion": 14.005508812503255,
+        "error_absoluto": 0.005508812503254745
       },
       {
         "fecha": "2024-10-07",
         "real": 13,
-        "prediccion": 13.591214530046354,
-        "error_absoluto": 0.5912145300463543
+        "prediccion": 13.591214533649795,
+        "error_absoluto": 0.5912145336497954
       },
       {
         "fecha": "2024-10-08",
         "real": 14,
-        "prediccion": 13.698635858141152,
-        "error_absoluto": 0.30136414185884774
+        "prediccion": 13.698635859884146,
+        "error_absoluto": 0.30136414011585444
       },
       {
         "fecha": "2024-10-09",
         "real": 7,
-        "prediccion": 13.976421430389951,
-        "error_absoluto": 6.976421430389951
+        "prediccion": 13.976421430541146,
+        "error_absoluto": 6.976421430541146
       },
       {
         "fecha": "2024-10-10",
         "real": 10,
-        "prediccion": 12.232643331598926,
-        "error_absoluto": 2.2326433315989256
+        "prediccion": 12.232643330447827,
+        "error_absoluto": 2.232643330447827
       },
       {
         "fecha": "2024-10-11",
         "real": 12,
-        "prediccion": 12.8825649301138,
-        "error_absoluto": 0.8825649301137997
+        "prediccion": 12.882564928568579,
+        "error_absoluto": 0.8825649285685788
       },
       {
         "fecha": "2024-10-12",
         "real": 10,
-        "prediccion": 12.647817968042048,
-        "error_absoluto": 2.647817968042048
+        "prediccion": 12.647817966790566,
+        "error_absoluto": 2.6478179667905657
       },
       {
         "fecha": "2024-10-13",
         "real": 9,
-        "prediccion": 11.998604048660521,
-        "error_absoluto": 2.998604048660521
+        "prediccion": 11.998604047924191,
+        "error_absoluto": 2.998604047924191
       },
       {
         "fecha": "2024-10-14",
         "real": 16,
-        "prediccion": 11.52311285223179,
-        "error_absoluto": 4.47688714776821
+        "prediccion": 11.523112853125985,
+        "error_absoluto": 4.476887146874015
       },
       {
         "fecha": "2024-10-15",
         "real": 15,
-        "prediccion": 12.924319004578946,
-        "error_absoluto": 2.075680995421054
+        "prediccion": 12.924319006127531,
+        "error_absoluto": 2.075680993872469
       },
       {
         "fecha": "2024-10-16",
         "real": 7,
-        "prediccion": 12.506353468047132,
-        "error_absoluto": 5.506353468047132
+        "prediccion": 12.506353470120644,
+        "error_absoluto": 5.506353470120644
       },
       {
         "fecha": "2024-10-17",
         "real": 13,
-        "prediccion": 10.972765050128903,
-        "error_absoluto": 2.0272349498710973
+        "prediccion": 10.972765052445647,
+        "error_absoluto": 2.027234947554353
       },
       {
         "fecha": "2024-10-18",
         "real": 9,
-        "prediccion": 12.473133155166124,
-        "error_absoluto": 3.473133155166124
+        "prediccion": 12.473133157147123,
+        "error_absoluto": 3.4731331571471227
       },
       {
         "fecha": "2024-10-19",
         "real": 14,
-        "prediccion": 11.055829320889803,
-        "error_absoluto": 2.944170679110197
+        "prediccion": 11.05582932114336,
+        "error_absoluto": 2.94417067885664
       },
       {
         "fecha": "2024-10-20",
         "real": 8,
-        "prediccion": 12.546195541656292,
-        "error_absoluto": 4.546195541656292
+        "prediccion": 12.546195541560275,
+        "error_absoluto": 4.546195541560275
       },
       {
         "fecha": "2024-10-21",
         "real": 7,
-        "prediccion": 10.635882718517959,
-        "error_absoluto": 3.6358827185179585
+        "prediccion": 10.635882719628466,
+        "error_absoluto": 3.6358827196284658
       },
       {
         "fecha": "2024-10-22",
         "real": 10,
-        "prediccion": 10.647177302667483,
-        "error_absoluto": 0.6471773026674832
+        "prediccion": 10.64717730292946,
+        "error_absoluto": 0.6471773029294603
       },
       {
         "fecha": "2024-10-23",
         "real": 13,
-        "prediccion": 10.831835970781382,
-        "error_absoluto": 2.1681640292186177
+        "prediccion": 10.831835971176847,
+        "error_absoluto": 2.1681640288231527
       },
       {
         "fecha": "2024-10-24",
         "real": 13,
-        "prediccion": 11.310590270619686,
-        "error_absoluto": 1.6894097293803139
+        "prediccion": 11.310590270755261,
+        "error_absoluto": 1.6894097292447388
       },
       {
         "fecha": "2024-10-25",
         "real": 14,
-        "prediccion": 11.26044829421473,
-        "error_absoluto": 2.7395517057852707
+        "prediccion": 11.26044829589829,
+        "error_absoluto": 2.739551704101711
       },
       {
         "fecha": "2024-10-26",
         "real": 18,
-        "prediccion": 11.669250605862766,
-        "error_absoluto": 6.330749394137234
+        "prediccion": 11.669250608672838,
+        "error_absoluto": 6.330749391327162
       },
       {
         "fecha": "2024-10-27",
         "real": 15,
-        "prediccion": 12.85204431303611,
-        "error_absoluto": 2.14795568696389
+        "prediccion": 12.852044315964696,
+        "error_absoluto": 2.1479556840353045
       },
       {
         "fecha": "2024-10-28",
         "real": 15,
-        "prediccion": 12.51097041561891,
-        "error_absoluto": 2.4890295843810897
+        "prediccion": 12.510970417917866,
+        "error_absoluto": 2.489029582082134
       },
       {
         "fecha": "2024-10-29",
         "real": 18,
-        "prediccion": 13.157822593695121,
-        "error_absoluto": 4.842177406304879
+        "prediccion": 13.157822595197352,
+        "error_absoluto": 4.842177404802648
       },
       {
         "fecha": "2024-10-30",
         "real": 12,
-        "prediccion": 14.126179423544322,
-        "error_absoluto": 2.126179423544322
+        "prediccion": 14.126179424123922,
+        "error_absoluto": 2.1261794241239222
       },
       {
         "fecha": "2024-10-31",
         "real": 9,
-        "prediccion": 13.036286963723796,
-        "error_absoluto": 4.036286963723796
+        "prediccion": 13.036286962709056,
+        "error_absoluto": 4.036286962709056
       },
       {
         "fecha": "2024-11-01",
         "real": 13,
-        "prediccion": 12.72014915640517,
-        "error_absoluto": 0.27985084359482926
+        "prediccion": 12.720149154379055,
+        "error_absoluto": 0.2798508456209454
       },
       {
         "fecha": "2024-11-02",
         "real": 13,
-        "prediccion": 13.412075265198967,
-        "error_absoluto": 0.41207526519896653
+        "prediccion": 13.412075262358497,
+        "error_absoluto": 0.41207526235849734
       }
     ]
   },
   "evaluacion_reciente_90_dias": {
     "dias": 90,
     "arima": {
-      "mae": 2.9947458746725397,
-      "rmse": 3.689769705481026
+      "mae": 3.054232463889469,
+      "rmse": 3.734563236685528
     },
     "baseline_semana_anterior": {
       "mae": 4.222222222222222,
       "rmse": 5.042045440317076
     },
-    "reduccion_mae_pct": 29.07180823143985,
-    "error_absoluto_p80": 4.854197717947112,
-    "periodo_inicio": "2024-08-06",
-    "periodo_fin": "2024-11-03"
+    "reduccion_mae_pct": 27.662915328933632,
+    "error_absoluto_p80": 4.95074052909004,
+    "periodo_inicio": "2024-08-05",
+    "periodo_fin": "2024-11-02"
   },
   "historico": {
     "serie_diaria": [
@@ -14834,10 +14834,6 @@
       {
         "fecha": "2024-11-02",
         "total": 13
-      },
-      {
-        "fecha": "2024-11-03",
-        "total": 13
       }
     ],
     "por_anio": [
@@ -14883,8 +14879,8 @@
       },
       {
         "anio": 2024,
-        "total": 3970,
-        "promedio_diario": 12.88961038961039
+        "total": 3957,
+        "promedio_diario": 12.889250814332248
       }
     ],
     "por_dia_semana": [
@@ -14914,10 +14910,14 @@
       },
       {
         "dia": "Domingo",
-        "promedio": 29.837662337662337
+        "promedio": 29.874186550976138
       }
     ],
     "ultimos_30_dias": [
+      {
+        "fecha": "2024-10-04",
+        "total": 17
+      },
       {
         "fecha": "2024-10-05",
         "total": 17
@@ -15033,22 +15033,18 @@
       {
         "fecha": "2024-11-02",
         "total": 13
-      },
-      {
-        "fecha": "2024-11-03",
-        "total": 13
       }
     ],
-    "promedio_30_dias": 12.366666666666667,
+    "promedio_30_dias": 12.5,
     "tendencia_30_dias": {
-      "promedio_primeros_15_dias": 12.0,
-      "promedio_ultimos_15_dias": 12.733333333333333,
-      "variacion_promedio": 0.7333333333333325
+      "promedio_primeros_15_dias": 12.2,
+      "promedio_ultimos_15_dias": 12.8,
+      "variacion_promedio": 0.6000000000000014
     },
     "clasificacion_pronostico": {
       "estado": "normal",
       "percentil_25": 10.0,
-      "percentil_75": 14.0
+      "percentil_75": 14.75
     }
   }
 }
